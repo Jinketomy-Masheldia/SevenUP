@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "iphone7-ios16-port"
+version = "0.1.0.dev0"
+description = "A terminal workflow for the experimental D10 iOS 16.1 port"
+requires-python = ">=3.10"
+
+[project.scripts]
+iphone7-port = "iphone7_port.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

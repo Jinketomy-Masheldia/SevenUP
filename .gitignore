@@ -1,0 +1,43 @@
+inputs/ipsw/*
+!inputs/ipsw/README.md
+work/
+output/
+logs/
+local.json
+local.json.bak
+# Firmware, captured tickets, device diagnostics and credentials must stay local.
+*.ipsw
+*.dmg
+*.img4
+*.im4p
+*.im4m
+*.shsh
+*.shsh2
+*.ips
+*.p12
+*.pfx
+*.pem
+*.key
+*.mobileprovision
+*.bak
+*.bak.*
+.env
+.env.*
+.ssh/
+.aws/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.DS_Store
+# Reviewed host executables, dependency libraries and their notices are shipped
+# in Darwin/ so a checkout does not depend on the author's surrounding workspace.
+Darwin/lib/libLLVM.23.1.dylib
+# Upstream-only dependencies are fetched at first use and hash-pinned.
+Darwin/KPlooshFinder
+Darwin/iBoot64Patcher
+Darwin/img4
+Darwin/kerneldiff
+resources/sshrd/ssh.tar.gz
+resources/sshrd/0x8010.shsh
+.download-*

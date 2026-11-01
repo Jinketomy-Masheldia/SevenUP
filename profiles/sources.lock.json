@@ -1,0 +1,64 @@
+{
+  "schema": 1,
+  "retrieved": "2026-11-01",
+  "sources": [
+    {
+      "role": "iphone7_bootstrap",
+      "product": "iPhone9,1",
+      "version": "15.6",
+      "build": "19G71",
+      "model": "d10ap",
+      "required": false,
+      "filename": "iPhone_4.7_P3_15.6_19G71_Restore.ipsw",
+      "size": 5636237065,
+      "md5": "c0177a95eff02af8e508e41e9eb3abdc",
+      "sha1": "0e4e9f4fb1feb7ec0bdd7365e989ae27abb04592",
+      "url": "https://updates.cdn-apple.com/2022SummerFCS/fullrestores/012-41763/0BC321DF-1A4E-473B-9EE0-BF126CB1CDA8/iPhone_4.7_P3_15.6_19G71_Restore.ipsw",
+      "checksum_source": "https://api.ipsw.me/v4/device/iPhone9,1?type=ipsw",
+      "automatic_components": true,
+      "manifest_sha256": "6ca0e9b3b93525ae38a1ebee7eef9d863ec188165b3b45cd94a8d2021b188e62"
+    },
+    {
+      "role": "ipad_target",
+      "product": "iPad7,5",
+      "version": "16.1",
+      "build": "20B82",
+      "model": "j71bap",
+      "required": true,
+      "filename": "iPad_64bit_TouchID_ASTC_16.1_20B82_Restore.ipsw",
+      "size": 5409598328,
+      "md5": "88f84390b99bd420bbe23696cfeea87b",
+      "sha1": "29fdeb88ac7affd5b0d7883c7810f422938a4e21",
+      "url": "https://updates.cdn-apple.com/2022FallFCS/fullrestores/012-93170/0E98AA01-052C-470B-9A14-7D610C1A97C6/iPad_64bit_TouchID_ASTC_16.1_20B82_Restore.ipsw",
+      "checksum_source": "https://api.ipsw.me/v4/device/iPad7,5?type=ipsw"
+    },
+    {
+      "role": "iphone8_donor",
+      "product": "iPhone10,1",
+      "version": "16.1",
+      "build": "20B82",
+      "model": "d20ap",
+      "required": true,
+      "filename": "iPhone_4.7_P3_16.1_20B82_Restore.ipsw",
+      "size": 5732307056,
+      "md5": "ccf075db67a3c833609c74811548ddce",
+      "sha1": "e5b65144229de3dbd4d2f885fc7c3fd23bf84830",
+      "url": "https://updates.cdn-apple.com/2022FallFCS/fullrestores/012-93302/55AD63F9-AC84-4990-8CD8-4025CE5454DE/iPhone_4.7_P3_16.1_20B82_Restore.ipsw",
+      "checksum_source": "https://api.ipsw.me/v4/device/iPhone10,1?type=ipsw"
+    },
+    {
+      "role": "iphone7_restore",
+      "product": "iPhone9,1",
+      "version": "15.8.8",
+      "build": "19H422",
+      "model": "d10ap",
+      "required": false,
+      "filename": "iPhone_4.7_P3_15.8.8_19H422_Restore.ipsw",
+      "size": 5394873160,
+      "md5": "633e2135d05a62e2cb2f1a3493055de2",
+      "sha1": "f31fd5e58d682dfb63b6dc38b487a5364179d168",
+      "url": "https://updates.cdn-apple.com/2025FallFCS/fullrestores/122-77496/774C7319-F63C-4C05-9C6C-49F5F0966540/iPhone_4.7_P3_15.8.8_19H422_Restore.ipsw",
+      "checksum_source": "https://api.ipsw.me/v4/device/iPhone9,1?type=ipsw"
+    }
+  ]
+}

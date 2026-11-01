@@ -1,0 +1,2507 @@
+{
+  "schema": 1,
+  "scope": "Reviewed fixed-build Maggie ABI immediate changes; no original driver instructions included",
+  "instruction_fields": [
+    {
+      "address": "0xfffffff0064e633c",
+      "expected_sha256": "498529b87ea11dcd0b331c302ebb2efd55cacbf30291241a1b7a8a6a836c3a9d",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 347
+    },
+    {
+      "address": "0xfffffff0064e68b0",
+      "expected_sha256": "498529b87ea11dcd0b331c302ebb2efd55cacbf30291241a1b7a8a6a836c3a9d",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 347
+    },
+    {
+      "address": "0xfffffff0064e6d38",
+      "expected_sha256": "a98564662efe5b5b525ff8afeabfa9b852172847b5b78686dc4bc4a091842cd9",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 348
+    },
+    {
+      "address": "0xfffffff0064e6d48",
+      "expected_sha256": "2f50c82e65bad544fe0dfdcc03dc7466ba22fde7df6a779a0088a29ac027330c",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 349
+    },
+    {
+      "address": "0xfffffff0064e7558",
+      "expected_sha256": "ae1d92b48aa37c077f83f13d1c4ee3d01c3bed7b8708fbdc888f1873487a9b74",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 592
+    },
+    {
+      "address": "0xfffffff0064e7564",
+      "expected_sha256": "872cfa7bacf79746231696e4877e68f93e1dab2b1e615802551752a981f892ed",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 68
+    },
+    {
+      "address": "0xfffffff0064e7568",
+      "expected_sha256": "bd833a2a660b9656335a2ce58cf7633972a9beca96e656d763a735386c72d5c7",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 560
+    },
+    {
+      "address": "0xfffffff0064e7578",
+      "expected_sha256": "ace5de2af820cd51e27bd8a0ba08a05c8b2b8882ffb286ec4d4a2d124446e2ef",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 144
+    },
+    {
+      "address": "0xfffffff0064e7584",
+      "expected_sha256": "1bd3d1c5840a3dd2427784df45fafa7700e2761df9f8f2b02d69432621a94901",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 73
+    },
+    {
+      "address": "0xfffffff0064e7594",
+      "expected_sha256": "c25f36ae7c6de7815b220ec5a8c153906b6674b29785ee2b07f62e6f0ed0b05b",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 364
+    },
+    {
+      "address": "0xfffffff0064e75ac",
+      "expected_sha256": "80ad1ee54319ae8dad0567ea3a8f9b20aa901e8e0544ec7f39dcebb7031394b5",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 366
+    },
+    {
+      "address": "0xfffffff0064e75c4",
+      "expected_sha256": "80ad1ee54319ae8dad0567ea3a8f9b20aa901e8e0544ec7f39dcebb7031394b5",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 366
+    },
+    {
+      "address": "0xfffffff0064e75dc",
+      "expected_sha256": "80ad1ee54319ae8dad0567ea3a8f9b20aa901e8e0544ec7f39dcebb7031394b5",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 366
+    },
+    {
+      "address": "0xfffffff0064e75f4",
+      "expected_sha256": "9235186143031b6b73f233fd3afeb363259ed703a92bda82d4f60fda279f15cb",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 56
+    },
+    {
+      "address": "0xfffffff0064e7660",
+      "expected_sha256": "c00208f9513862a6fc207cbb7a4fc4d018e97b0634c8990b33f79681754f6116",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 65
+    },
+    {
+      "address": "0xfffffff0064e76b8",
+      "expected_sha256": "63d04eaffca246230f2b7776d8bc3e4ac5efc7f300469d8767b956e5b5437097",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 341
+    },
+    {
+      "address": "0xfffffff0064e7740",
+      "expected_sha256": "e099e279905a50e16c1037cc817d3773559a0461d5848043f1d39f74c7339a7e",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 66
+    },
+    {
+      "address": "0xfffffff0064e77d8",
+      "expected_sha256": "a645860f2549400a9996cb7438e226b2350c9460d6135a99ab5be627a487e5ee",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 66
+    },
+    {
+      "address": "0xfffffff0064e78f4",
+      "expected_sha256": "523683213964277c9ede67c988523ca9a91140f0e6f12df787ebe6abb8b654ec",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 62
+    },
+    {
+      "address": "0xfffffff0064e797c",
+      "expected_sha256": "3b32639e6c0310c7011e8a3db606968dbe76a76023ca464ef46f19bc53b8892b",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 63
+    },
+    {
+      "address": "0xfffffff0064e7a04",
+      "expected_sha256": "ac1646a0442add6f411f61d77ee37aaefdd2d9084346aa1d731aa17c3c50843c",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 61
+    },
+    {
+      "address": "0xfffffff0064e7a8c",
+      "expected_sha256": "e4afc5610e9994598530f7e26c8bbe94998f72f55da39b8804cb307d29d243ca",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 60
+    },
+    {
+      "address": "0xfffffff0064e7b14",
+      "expected_sha256": "912c90d49eedec152bae9e772958c50b5e17e5998248e2a4b40866b6b2ccff3b",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 64
+    },
+    {
+      "address": "0xfffffff0064e7bcc",
+      "expected_sha256": "e377dceefc973e64ca478a8a7c54fc67b992b6d0e9dedab8e295ef641b4b54d8",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 57
+    },
+    {
+      "address": "0xfffffff0064e7c5c",
+      "expected_sha256": "c29794b76bf69ac68853f7d3bf35de7dd48e5c96b465041439cfcb91bc8b2e84",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 57
+    },
+    {
+      "address": "0xfffffff0064e7c60",
+      "expected_sha256": "47159ddd389c770b914f15b61ae06385fffff7040a08d8f95bc43762a5a27a7f",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 116
+    },
+    {
+      "address": "0xfffffff0064e7c64",
+      "expected_sha256": "f9559c084cca6c89f941d28d8647a6ae076d7f00ffd2437e04c3f8c5a271cf64",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 468
+    },
+    {
+      "address": "0xfffffff0064e7cd8",
+      "expected_sha256": "838b6a0447f6d94f4d3b3c6ef089134b91977593b181e2d3631e134d4896cdc8",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 468
+    },
+    {
+      "address": "0xfffffff0064e7cec",
+      "expected_sha256": "701739fb5b9e7c7c2ea8a1a5a19c23a5007f045654b9422e7bfbad01e5983e1c",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 66
+    },
+    {
+      "address": "0xfffffff0064e7cf0",
+      "expected_sha256": "22f9febaf259a912b986dea5012fb016df1969c53bb5b89ff786624f8e7ae84b",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 138
+    },
+    {
+      "address": "0xfffffff0064e7cf4",
+      "expected_sha256": "ca625d8f1c99b6ae1d22e0a8ba6d99f01e83e7d2a97c0379a175ad02233e00dc",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 118
+    },
+    {
+      "address": "0xfffffff0064e7cf8",
+      "expected_sha256": "b14f60814c6872feaf363bfb0b7a8e929c37d29d5df2eb29640230553891c6cc",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 134
+    },
+    {
+      "address": "0xfffffff0064e7df0",
+      "expected_sha256": "f5a9185a76c2eef6024713778c05e0708ec4d4508e8aab4588508a9038e0eba2",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 118
+    },
+    {
+      "address": "0xfffffff0064e7df8",
+      "expected_sha256": "e61e24ec82a8ae137197a0c05b529d72b9fb8afe776e04965fb57156577ad34b",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 118
+    },
+    {
+      "address": "0xfffffff0064e7e70",
+      "expected_sha256": "801134dab1e7610c16da3620729af257e02b686ee5492a96072393b80c35bf8d",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 342
+    },
+    {
+      "address": "0xfffffff0064e7ef0",
+      "expected_sha256": "dcf20af4c12c335cf999343a41429d89e9c9405f02fb8dba3544e7c9ad955a84",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 56
+    },
+    {
+      "address": "0xfffffff0064e7efc",
+      "expected_sha256": "51a3f2cf86ce47c45574e649cb7869d93afc55389cb10074757970e25d1b6f32",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 356
+    },
+    {
+      "address": "0xfffffff0064e7f10",
+      "expected_sha256": "f0347c676acf1ac5c7ea61d6ef02754ef3e362a6854cb914a52fc406577e8bc1",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 357
+    },
+    {
+      "address": "0xfffffff0064e7f30",
+      "expected_sha256": "51a3f2cf86ce47c45574e649cb7869d93afc55389cb10074757970e25d1b6f32",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 356
+    },
+    {
+      "address": "0xfffffff0064e7f48",
+      "expected_sha256": "adf78c15506855b924de6440fa59aee57638612a96fcbfa1366293e6b4c77ff1",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 65
+    },
+    {
+      "address": "0xfffffff0064e8008",
+      "expected_sha256": "adf78c15506855b924de6440fa59aee57638612a96fcbfa1366293e6b4c77ff1",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 65
+    },
+    {
+      "address": "0xfffffff0064e80c0",
+      "expected_sha256": "adf78c15506855b924de6440fa59aee57638612a96fcbfa1366293e6b4c77ff1",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 65
+    },
+    {
+      "address": "0xfffffff0064e81c4",
+      "expected_sha256": "f0347c676acf1ac5c7ea61d6ef02754ef3e362a6854cb914a52fc406577e8bc1",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 357
+    },
+    {
+      "address": "0xfffffff0064e81d8",
+      "expected_sha256": "5f8027a78404f3b243adee0c3df3dd12898a1cf0480c3a509d43729786eb5d28",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 56
+    },
+    {
+      "address": "0xfffffff0064e8230",
+      "expected_sha256": "adf78c15506855b924de6440fa59aee57638612a96fcbfa1366293e6b4c77ff1",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 65
+    },
+    {
+      "address": "0xfffffff0064e82b8",
+      "expected_sha256": "adf78c15506855b924de6440fa59aee57638612a96fcbfa1366293e6b4c77ff1",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 65
+    },
+    {
+      "address": "0xfffffff0064e8358",
+      "expected_sha256": "2e65275d5305dc88bfa1da713b2f5ed47564e78668096d962ffc6046043d881b",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 63
+    },
+    {
+      "address": "0xfffffff0064e8390",
+      "expected_sha256": "adf78c15506855b924de6440fa59aee57638612a96fcbfa1366293e6b4c77ff1",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 65
+    },
+    {
+      "address": "0xfffffff0064e83bc",
+      "expected_sha256": "b89ed445799905b88cb59d3ac0a8332c45f5be503367ef27808f2d531446d8c6",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 63
+    },
+    {
+      "address": "0xfffffff0064e85d0",
+      "expected_sha256": "2dcbd4bfc35efee7d2540c4dceb18aaaec458dc2147585e5876070c3ae38c135",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 350
+    },
+    {
+      "address": "0xfffffff0064e8660",
+      "expected_sha256": "6d3ff80f31d38f1dfe14820150bc5caa0e043b3ccaa9759fde8bf3270c79fa55",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 321
+    },
+    {
+      "address": "0xfffffff0064e8688",
+      "expected_sha256": "5f8027a78404f3b243adee0c3df3dd12898a1cf0480c3a509d43729786eb5d28",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 56
+    },
+    {
+      "address": "0xfffffff0064e8694",
+      "expected_sha256": "1922fe477698d9f5a43b97fa8100e6592308907a1671669d03239bfbca320478",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff0064e86a8",
+      "expected_sha256": "3f43318fe65189dac79037d2fb7b89f69b8971fca33255dcdd66de2f1c44e5c9",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 71
+    },
+    {
+      "address": "0xfffffff0064e86b0",
+      "expected_sha256": "024e1b044ddb4d9e9238c8a566ff7c33fd2388247701fbbef87fae20ffe916b5",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 70
+    },
+    {
+      "address": "0xfffffff0064e86cc",
+      "expected_sha256": "3f43318fe65189dac79037d2fb7b89f69b8971fca33255dcdd66de2f1c44e5c9",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 71
+    },
+    {
+      "address": "0xfffffff0064e8700",
+      "expected_sha256": "3f43318fe65189dac79037d2fb7b89f69b8971fca33255dcdd66de2f1c44e5c9",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 71
+    },
+    {
+      "address": "0xfffffff0064e87e0",
+      "expected_sha256": "43807013e4396d92c11bdfbdb94b3116e4c3c53bcff4ef300030841a9fca2ba0",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 70
+    },
+    {
+      "address": "0xfffffff0064e88fc",
+      "expected_sha256": "e7e058a0cb9e47fd3bf77ec86bf7a3707dffce88a37f991f47e8deeaa90cb00d",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 138
+    },
+    {
+      "address": "0xfffffff0064e895c",
+      "expected_sha256": "ca7ce35ad3cf3a2554d0be36ab6d924f05316eb7c540ab4171ff2690f11259d0",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 68
+    },
+    {
+      "address": "0xfffffff0064e8990",
+      "expected_sha256": "2e187dcd7a50b1334a1c90c9d1c3780625354119b90c9852df213c73e35e708e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 361
+    },
+    {
+      "address": "0xfffffff0064e8a3c",
+      "expected_sha256": "5f8027a78404f3b243adee0c3df3dd12898a1cf0480c3a509d43729786eb5d28",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 56
+    },
+    {
+      "address": "0xfffffff0064e8a48",
+      "expected_sha256": "1922fe477698d9f5a43b97fa8100e6592308907a1671669d03239bfbca320478",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff0064e8b64",
+      "expected_sha256": "6d3ff80f31d38f1dfe14820150bc5caa0e043b3ccaa9759fde8bf3270c79fa55",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 321
+    },
+    {
+      "address": "0xfffffff0064e8ba0",
+      "expected_sha256": "5b2c907df0d2753921163d0a3dc6f28a728098893ec8e4c2eb682895d5a97670",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 351
+    },
+    {
+      "address": "0xfffffff0064e8bb8",
+      "expected_sha256": "57e3cf66a80c39bfe1e7585ac22c565b52a246272a34c8512572292ea54bbb53",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064e8cdc",
+      "expected_sha256": "09609bdc3da2406e65186f23750899730158f28d044f5c6ec561d3f99ecee3d8",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 355
+    },
+    {
+      "address": "0xfffffff0064e8e18",
+      "expected_sha256": "09609bdc3da2406e65186f23750899730158f28d044f5c6ec561d3f99ecee3d8",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 355
+    },
+    {
+      "address": "0xfffffff0064e8ecc",
+      "expected_sha256": "bb9b7409bdba9671bbd4c5774256db611b277d4c7429af5058844e7683f87040",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 232
+    },
+    {
+      "address": "0xfffffff0064e8ef4",
+      "expected_sha256": "09609bdc3da2406e65186f23750899730158f28d044f5c6ec561d3f99ecee3d8",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 355
+    },
+    {
+      "address": "0xfffffff0064e8f9c",
+      "expected_sha256": "bb9b7409bdba9671bbd4c5774256db611b277d4c7429af5058844e7683f87040",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 232
+    },
+    {
+      "address": "0xfffffff0064e8fc4",
+      "expected_sha256": "09609bdc3da2406e65186f23750899730158f28d044f5c6ec561d3f99ecee3d8",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 355
+    },
+    {
+      "address": "0xfffffff0064e9044",
+      "expected_sha256": "a0acf20039df99772de63a491da587355839e7b2784cf7edd3b3a7ffb026c574",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 228
+    },
+    {
+      "address": "0xfffffff0064e9108",
+      "expected_sha256": "1922fe477698d9f5a43b97fa8100e6592308907a1671669d03239bfbca320478",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff0064e9360",
+      "expected_sha256": "bb13fa41d236362a318d9ca39650d8cfdd61e943aaf25f853287dbcfa20b9b55",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 288
+    },
+    {
+      "address": "0xfffffff0064e93c8",
+      "expected_sha256": "6d3ff80f31d38f1dfe14820150bc5caa0e043b3ccaa9759fde8bf3270c79fa55",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 321
+    },
+    {
+      "address": "0xfffffff0064e93e0",
+      "expected_sha256": "2e187dcd7a50b1334a1c90c9d1c3780625354119b90c9852df213c73e35e708e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 361
+    },
+    {
+      "address": "0xfffffff0064e9578",
+      "expected_sha256": "f5a9185a76c2eef6024713778c05e0708ec4d4508e8aab4588508a9038e0eba2",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 118
+    },
+    {
+      "address": "0xfffffff0064e9580",
+      "expected_sha256": "e61e24ec82a8ae137197a0c05b529d72b9fb8afe776e04965fb57156577ad34b",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 118
+    },
+    {
+      "address": "0xfffffff0064e9594",
+      "expected_sha256": "5f8027a78404f3b243adee0c3df3dd12898a1cf0480c3a509d43729786eb5d28",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 56
+    },
+    {
+      "address": "0xfffffff0064e95a0",
+      "expected_sha256": "1922fe477698d9f5a43b97fa8100e6592308907a1671669d03239bfbca320478",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff0064e95b0",
+      "expected_sha256": "7e20cd0e8f91790ee702278c8671d26573e676f4f2a31f2f5f3239c180d27204",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 57
+    },
+    {
+      "address": "0xfffffff0064e95b4",
+      "expected_sha256": "05798175fe69fcff3b2764e7a1751840a960464899054690fbc47f699996c354",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 116
+    },
+    {
+      "address": "0xfffffff0064e95bc",
+      "expected_sha256": "acd2934782055a9e1a1eb7110c195ab64f3c1bb27df063d623a8b6bee4f62050",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 359
+    },
+    {
+      "address": "0xfffffff0064e95d0",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064e95e8",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064e9600",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064e9618",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064e9630",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064e9648",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064e9660",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064e9678",
+      "expected_sha256": "5b2c907df0d2753921163d0a3dc6f28a728098893ec8e4c2eb682895d5a97670",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 351
+    },
+    {
+      "address": "0xfffffff0064e969c",
+      "expected_sha256": "066aa603fdfb47aecc6c2c0a413bc1155f89d535b3728d416b8f06fc5bea12ff",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 360
+    },
+    {
+      "address": "0xfffffff0064e96b8",
+      "expected_sha256": "066aa603fdfb47aecc6c2c0a413bc1155f89d535b3728d416b8f06fc5bea12ff",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 360
+    },
+    {
+      "address": "0xfffffff0064e96d4",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064e96ec",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064e9704",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064e971c",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064e97b0",
+      "expected_sha256": "5f8027a78404f3b243adee0c3df3dd12898a1cf0480c3a509d43729786eb5d28",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 56
+    },
+    {
+      "address": "0xfffffff0064e97bc",
+      "expected_sha256": "1922fe477698d9f5a43b97fa8100e6592308907a1671669d03239bfbca320478",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff0064e9910",
+      "expected_sha256": "dcf20af4c12c335cf999343a41429d89e9c9405f02fb8dba3544e7c9ad955a84",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 56
+    },
+    {
+      "address": "0xfffffff0064e991c",
+      "expected_sha256": "1922fe477698d9f5a43b97fa8100e6592308907a1671669d03239bfbca320478",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff0064e9940",
+      "expected_sha256": "2e187dcd7a50b1334a1c90c9d1c3780625354119b90c9852df213c73e35e708e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 361
+    },
+    {
+      "address": "0xfffffff0064e99c4",
+      "expected_sha256": "18a07c9e2c5a54ed97d67bab99c6584a8a06bd9d11b4a7b641b33f6aed90d00e",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 118
+    },
+    {
+      "address": "0xfffffff0064e9a08",
+      "expected_sha256": "5f8027a78404f3b243adee0c3df3dd12898a1cf0480c3a509d43729786eb5d28",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 56
+    },
+    {
+      "address": "0xfffffff0064e9a14",
+      "expected_sha256": "1922fe477698d9f5a43b97fa8100e6592308907a1671669d03239bfbca320478",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff0064e9a88",
+      "expected_sha256": "e099e279905a50e16c1037cc817d3773559a0461d5848043f1d39f74c7339a7e",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 66
+    },
+    {
+      "address": "0xfffffff0064e9a94",
+      "expected_sha256": "dcf20af4c12c335cf999343a41429d89e9c9405f02fb8dba3544e7c9ad955a84",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 56
+    },
+    {
+      "address": "0xfffffff0064e9aa0",
+      "expected_sha256": "1922fe477698d9f5a43b97fa8100e6592308907a1671669d03239bfbca320478",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff0064e9ab8",
+      "expected_sha256": "2e187dcd7a50b1334a1c90c9d1c3780625354119b90c9852df213c73e35e708e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 361
+    },
+    {
+      "address": "0xfffffff0064e9ad0",
+      "expected_sha256": "75bbb38a1716590a16af48343a56f8026e49e3d8b94421d686b7fe5d6f092fc3",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 144
+    },
+    {
+      "address": "0xfffffff0064e9ae0",
+      "expected_sha256": "8f4b5c304e796080f7f9cafc656ed8a868c025165c316f0e206e6fc8bfec1da3",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 73
+    },
+    {
+      "address": "0xfffffff0064e9b08",
+      "expected_sha256": "e9fbcbcde81a99cba81a873b23adfcd03743aa4fdb18e7479b2937a60ae3245b",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 74
+    },
+    {
+      "address": "0xfffffff0064e9b10",
+      "expected_sha256": "025363ea503c4d3a0f3cd1d0660582a31cca1384f0e0ad2c59a8eee684fb294d",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 74
+    },
+    {
+      "address": "0xfffffff0064e9b1c",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064e9b30",
+      "expected_sha256": "5f8027a78404f3b243adee0c3df3dd12898a1cf0480c3a509d43729786eb5d28",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 56
+    },
+    {
+      "address": "0xfffffff0064e9b3c",
+      "expected_sha256": "1922fe477698d9f5a43b97fa8100e6592308907a1671669d03239bfbca320478",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff0064e9c00",
+      "expected_sha256": "dcf20af4c12c335cf999343a41429d89e9c9405f02fb8dba3544e7c9ad955a84",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 56
+    },
+    {
+      "address": "0xfffffff0064e9c0c",
+      "expected_sha256": "1922fe477698d9f5a43b97fa8100e6592308907a1671669d03239bfbca320478",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff0064e9c1c",
+      "expected_sha256": "75bbb38a1716590a16af48343a56f8026e49e3d8b94421d686b7fe5d6f092fc3",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 144
+    },
+    {
+      "address": "0xfffffff0064e9c54",
+      "expected_sha256": "75bbb38a1716590a16af48343a56f8026e49e3d8b94421d686b7fe5d6f092fc3",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 144
+    },
+    {
+      "address": "0xfffffff0064e9c98",
+      "expected_sha256": "db58f711ebd25db77a66f5828a98e2eeafdf2a28ef65351c5d65ead8a80484d9",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 73
+    },
+    {
+      "address": "0xfffffff0064e9cdc",
+      "expected_sha256": "75bbb38a1716590a16af48343a56f8026e49e3d8b94421d686b7fe5d6f092fc3",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 144
+    },
+    {
+      "address": "0xfffffff0064e9ce8",
+      "expected_sha256": "ff8e001c4735cc9a95d103fb6ab348faaa4d15ccf5abb975bab7673380487de5",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 74
+    },
+    {
+      "address": "0xfffffff0064e9d54",
+      "expected_sha256": "5f8027a78404f3b243adee0c3df3dd12898a1cf0480c3a509d43729786eb5d28",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 56
+    },
+    {
+      "address": "0xfffffff0064e9d60",
+      "expected_sha256": "1922fe477698d9f5a43b97fa8100e6592308907a1671669d03239bfbca320478",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff0064e9e24",
+      "expected_sha256": "1ae292b2ff3137392eae7bb069ffd0c082eda7dd4ba25a99266eba67081d1cdf",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 349
+    },
+    {
+      "address": "0xfffffff0064e9e3c",
+      "expected_sha256": "5f8027a78404f3b243adee0c3df3dd12898a1cf0480c3a509d43729786eb5d28",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 56
+    },
+    {
+      "address": "0xfffffff0064e9e48",
+      "expected_sha256": "1922fe477698d9f5a43b97fa8100e6592308907a1671669d03239bfbca320478",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff0064e9e60",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064e9e78",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064e9e90",
+      "expected_sha256": "71a4dcd7f211b305710b830995c7e9a815e03837cfe6b6f6a4b8b7c478403e86",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 344
+    },
+    {
+      "address": "0xfffffff0064e9ebc",
+      "expected_sha256": "71a4dcd7f211b305710b830995c7e9a815e03837cfe6b6f6a4b8b7c478403e86",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 344
+    },
+    {
+      "address": "0xfffffff0064e9ecc",
+      "expected_sha256": "71a4dcd7f211b305710b830995c7e9a815e03837cfe6b6f6a4b8b7c478403e86",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 344
+    },
+    {
+      "address": "0xfffffff0064e9ef4",
+      "expected_sha256": "71a4dcd7f211b305710b830995c7e9a815e03837cfe6b6f6a4b8b7c478403e86",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 344
+    },
+    {
+      "address": "0xfffffff0064e9f08",
+      "expected_sha256": "71a4dcd7f211b305710b830995c7e9a815e03837cfe6b6f6a4b8b7c478403e86",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 344
+    },
+    {
+      "address": "0xfffffff0064e9f64",
+      "expected_sha256": "71a4dcd7f211b305710b830995c7e9a815e03837cfe6b6f6a4b8b7c478403e86",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 344
+    },
+    {
+      "address": "0xfffffff0064e9f78",
+      "expected_sha256": "71a4dcd7f211b305710b830995c7e9a815e03837cfe6b6f6a4b8b7c478403e86",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 344
+    },
+    {
+      "address": "0xfffffff0064e9fa0",
+      "expected_sha256": "71a4dcd7f211b305710b830995c7e9a815e03837cfe6b6f6a4b8b7c478403e86",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 344
+    },
+    {
+      "address": "0xfffffff0064e9fb8",
+      "expected_sha256": "c5a9f699a0bd262af7ff9e80b4c7c5d08b90cb03528c2e2a81e6592edfc9eacb",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 343
+    },
+    {
+      "address": "0xfffffff0064e9fe4",
+      "expected_sha256": "c5a9f699a0bd262af7ff9e80b4c7c5d08b90cb03528c2e2a81e6592edfc9eacb",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 343
+    },
+    {
+      "address": "0xfffffff0064e9ff4",
+      "expected_sha256": "c5a9f699a0bd262af7ff9e80b4c7c5d08b90cb03528c2e2a81e6592edfc9eacb",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 343
+    },
+    {
+      "address": "0xfffffff0064ea01c",
+      "expected_sha256": "c5a9f699a0bd262af7ff9e80b4c7c5d08b90cb03528c2e2a81e6592edfc9eacb",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 343
+    },
+    {
+      "address": "0xfffffff0064ea030",
+      "expected_sha256": "c5a9f699a0bd262af7ff9e80b4c7c5d08b90cb03528c2e2a81e6592edfc9eacb",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 343
+    },
+    {
+      "address": "0xfffffff0064ea090",
+      "expected_sha256": "c5a9f699a0bd262af7ff9e80b4c7c5d08b90cb03528c2e2a81e6592edfc9eacb",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 343
+    },
+    {
+      "address": "0xfffffff0064ea0a4",
+      "expected_sha256": "c5a9f699a0bd262af7ff9e80b4c7c5d08b90cb03528c2e2a81e6592edfc9eacb",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 343
+    },
+    {
+      "address": "0xfffffff0064ea0cc",
+      "expected_sha256": "c5a9f699a0bd262af7ff9e80b4c7c5d08b90cb03528c2e2a81e6592edfc9eacb",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 343
+    },
+    {
+      "address": "0xfffffff0064ea18c",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064ea1a8",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064ea1c0",
+      "expected_sha256": "3bb119ca93952672fa8142736d1fc1ea37729fcfc3aac6a4f7019df34caa6a75",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 346
+    },
+    {
+      "address": "0xfffffff0064ea1e0",
+      "expected_sha256": "acd2934782055a9e1a1eb7110c195ab64f3c1bb27df063d623a8b6bee4f62050",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 359
+    },
+    {
+      "address": "0xfffffff0064ea200",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064ea214",
+      "expected_sha256": "a459f7dd4cb0769acf0f0ebcf1525e069bfc18671703aa03f0c755ef258a85f9",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 345
+    },
+    {
+      "address": "0xfffffff0064ea234",
+      "expected_sha256": "acd2934782055a9e1a1eb7110c195ab64f3c1bb27df063d623a8b6bee4f62050",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 359
+    },
+    {
+      "address": "0xfffffff0064ea244",
+      "expected_sha256": "5f8027a78404f3b243adee0c3df3dd12898a1cf0480c3a509d43729786eb5d28",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 56
+    },
+    {
+      "address": "0xfffffff0064ea250",
+      "expected_sha256": "1922fe477698d9f5a43b97fa8100e6592308907a1671669d03239bfbca320478",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff0064ea4d8",
+      "expected_sha256": "f5a9185a76c2eef6024713778c05e0708ec4d4508e8aab4588508a9038e0eba2",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 118
+    },
+    {
+      "address": "0xfffffff0064ea4e0",
+      "expected_sha256": "e61e24ec82a8ae137197a0c05b529d72b9fb8afe776e04965fb57156577ad34b",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 118
+    },
+    {
+      "address": "0xfffffff0064ea564",
+      "expected_sha256": "f5a9185a76c2eef6024713778c05e0708ec4d4508e8aab4588508a9038e0eba2",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 118
+    },
+    {
+      "address": "0xfffffff0064ea56c",
+      "expected_sha256": "e61e24ec82a8ae137197a0c05b529d72b9fb8afe776e04965fb57156577ad34b",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 118
+    },
+    {
+      "address": "0xfffffff0064ea5f0",
+      "expected_sha256": "f5a9185a76c2eef6024713778c05e0708ec4d4508e8aab4588508a9038e0eba2",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 118
+    },
+    {
+      "address": "0xfffffff0064ea5f8",
+      "expected_sha256": "e61e24ec82a8ae137197a0c05b529d72b9fb8afe776e04965fb57156577ad34b",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 118
+    },
+    {
+      "address": "0xfffffff0064ea6c0",
+      "expected_sha256": "f5a9185a76c2eef6024713778c05e0708ec4d4508e8aab4588508a9038e0eba2",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 118
+    },
+    {
+      "address": "0xfffffff0064ea6c8",
+      "expected_sha256": "e61e24ec82a8ae137197a0c05b529d72b9fb8afe776e04965fb57156577ad34b",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 118
+    },
+    {
+      "address": "0xfffffff0064ea894",
+      "expected_sha256": "f5a9185a76c2eef6024713778c05e0708ec4d4508e8aab4588508a9038e0eba2",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 118
+    },
+    {
+      "address": "0xfffffff0064ea89c",
+      "expected_sha256": "e61e24ec82a8ae137197a0c05b529d72b9fb8afe776e04965fb57156577ad34b",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 118
+    },
+    {
+      "address": "0xfffffff0064ea928",
+      "expected_sha256": "f5a9185a76c2eef6024713778c05e0708ec4d4508e8aab4588508a9038e0eba2",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 118
+    },
+    {
+      "address": "0xfffffff0064ea930",
+      "expected_sha256": "e61e24ec82a8ae137197a0c05b529d72b9fb8afe776e04965fb57156577ad34b",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 118
+    },
+    {
+      "address": "0xfffffff0064eaa20",
+      "expected_sha256": "f5a9185a76c2eef6024713778c05e0708ec4d4508e8aab4588508a9038e0eba2",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 118
+    },
+    {
+      "address": "0xfffffff0064eaa28",
+      "expected_sha256": "e61e24ec82a8ae137197a0c05b529d72b9fb8afe776e04965fb57156577ad34b",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 118
+    },
+    {
+      "address": "0xfffffff0064eaa8c",
+      "expected_sha256": "5f8027a78404f3b243adee0c3df3dd12898a1cf0480c3a509d43729786eb5d28",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 56
+    },
+    {
+      "address": "0xfffffff0064eaa98",
+      "expected_sha256": "1922fe477698d9f5a43b97fa8100e6592308907a1671669d03239bfbca320478",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff0064eaab0",
+      "expected_sha256": "acd2934782055a9e1a1eb7110c195ab64f3c1bb27df063d623a8b6bee4f62050",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 359
+    },
+    {
+      "address": "0xfffffff0064eaacc",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eaae4",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eab4c",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eab60",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eab84",
+      "expected_sha256": "44b22ef5241a7eeb1c105453f15c48f28de92facbbdc7c3147cbb026df09d278",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 468
+    },
+    {
+      "address": "0xfffffff0064eaba8",
+      "expected_sha256": "f5a9185a76c2eef6024713778c05e0708ec4d4508e8aab4588508a9038e0eba2",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 118
+    },
+    {
+      "address": "0xfffffff0064eabb0",
+      "expected_sha256": "e61e24ec82a8ae137197a0c05b529d72b9fb8afe776e04965fb57156577ad34b",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 118
+    },
+    {
+      "address": "0xfffffff0064ead6c",
+      "expected_sha256": "842503993b81035b749ac37bbea6c0e3a017bfca174665ebd00b6a33a5a8d2b0",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064ead98",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eadb8",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eadd8",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eadf8",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eae18",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eae38",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eae58",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eae78",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eae98",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eaeb8",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eaedc",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eaef4",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eaf0c",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eaf24",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eaf3c",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eaf58",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eaf74",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eaf90",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eafac",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eafc8",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eafe4",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eb000",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eb01c",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eb038",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eb070",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eb090",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eb0ac",
+      "expected_sha256": "23785b4b00f0bed41925792e8036237da865a953fdf13c2e3bc9096de93c24b1",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eb0d8",
+      "expected_sha256": "db4fbc24f9add30ff6dc05cc3d1984a58d02295ecd2e9c63023288bbfd06638e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eb0f4",
+      "expected_sha256": "23785b4b00f0bed41925792e8036237da865a953fdf13c2e3bc9096de93c24b1",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eb10c",
+      "expected_sha256": "5f8027a78404f3b243adee0c3df3dd12898a1cf0480c3a509d43729786eb5d28",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 56
+    },
+    {
+      "address": "0xfffffff0064eb118",
+      "expected_sha256": "1922fe477698d9f5a43b97fa8100e6592308907a1671669d03239bfbca320478",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff0064eb160",
+      "expected_sha256": "4afa5262d2a1e30f67b94c13377e98ef6151993d77729cf90b56c626f33ae974",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 552
+    },
+    {
+      "address": "0xfffffff0064eb170",
+      "expected_sha256": "7a9767307520004d9b2e6f6165f54420336d18c58d1f5bd28a156a6f9f1f810b",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 353
+    },
+    {
+      "address": "0xfffffff0064eb198",
+      "expected_sha256": "c73890a8202c3d7eb04b13fcbeb1c1620cffd63b3ff88de5c974eb8217a90237",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 354
+    },
+    {
+      "address": "0xfffffff0064eb23c",
+      "expected_sha256": "0275383ec6b90d4a3e125008799d9a501fa2ccf45923bf932da0b8cd826f80ca",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 60
+    },
+    {
+      "address": "0xfffffff0064eb354",
+      "expected_sha256": "f5fdf3aff02acd0b0347abb6a631ea8d105d9c62711a14127d4bbbd0935aeb3e",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 61
+    },
+    {
+      "address": "0xfffffff0064eb46c",
+      "expected_sha256": "1a558df5608fdc2f07cc66e5beec55e41562133cd0172532b949cd84a8ae1661",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 134
+    },
+    {
+      "address": "0xfffffff0064eb480",
+      "expected_sha256": "12c8f315c686e5137724bc1f1c4d4dd8cfcd32e0f7c864bf3b82aa4bda0cf2c4",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 64
+    },
+    {
+      "address": "0xfffffff0064eb490",
+      "expected_sha256": "1922fe477698d9f5a43b97fa8100e6592308907a1671669d03239bfbca320478",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff0064eb4a0",
+      "expected_sha256": "1a558df5608fdc2f07cc66e5beec55e41562133cd0172532b949cd84a8ae1661",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 134
+    },
+    {
+      "address": "0xfffffff0064eb4b8",
+      "expected_sha256": "16aa16a7dce0fde3f49de9f8dd65e52c2027d5733da93fd94557774681f9afea",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 64
+    },
+    {
+      "address": "0xfffffff0064eb4d8",
+      "expected_sha256": "1a558df5608fdc2f07cc66e5beec55e41562133cd0172532b949cd84a8ae1661",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 134
+    },
+    {
+      "address": "0xfffffff0064eb4fc",
+      "expected_sha256": "1922fe477698d9f5a43b97fa8100e6592308907a1671669d03239bfbca320478",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff0064eb520",
+      "expected_sha256": "1922fe477698d9f5a43b97fa8100e6592308907a1671669d03239bfbca320478",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff0064eb57c",
+      "expected_sha256": "1a558df5608fdc2f07cc66e5beec55e41562133cd0172532b949cd84a8ae1661",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 134
+    },
+    {
+      "address": "0xfffffff0064eb58c",
+      "expected_sha256": "edd1dde5f1ef1438d49d99770bff00753d70fa4e726029ac32bd1bbf6275f195",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 134
+    },
+    {
+      "address": "0xfffffff0064eb5e8",
+      "expected_sha256": "5a8e0645a1583f17a291cd71f023d9f05ba2d1c4e21510f66a64e344238263f1",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 62
+    },
+    {
+      "address": "0xfffffff0064eb640",
+      "expected_sha256": "dcf20af4c12c335cf999343a41429d89e9c9405f02fb8dba3544e7c9ad955a84",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 56
+    },
+    {
+      "address": "0xfffffff0064eb648",
+      "expected_sha256": "adf78c15506855b924de6440fa59aee57638612a96fcbfa1366293e6b4c77ff1",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 65
+    },
+    {
+      "address": "0xfffffff0064eb718",
+      "expected_sha256": "5f8027a78404f3b243adee0c3df3dd12898a1cf0480c3a509d43729786eb5d28",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 56
+    },
+    {
+      "address": "0xfffffff0064eb74c",
+      "expected_sha256": "acd2934782055a9e1a1eb7110c195ab64f3c1bb27df063d623a8b6bee4f62050",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 359
+    },
+    {
+      "address": "0xfffffff0064eb7ac",
+      "expected_sha256": "dcf20af4c12c335cf999343a41429d89e9c9405f02fb8dba3544e7c9ad955a84",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 56
+    },
+    {
+      "address": "0xfffffff0064eb7b8",
+      "expected_sha256": "1922fe477698d9f5a43b97fa8100e6592308907a1671669d03239bfbca320478",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff0064eb7c8",
+      "expected_sha256": "53bf92046b9fa1dbcc7e381fafd328ef09accd388755bd63343856e091d6d417",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 65
+    },
+    {
+      "address": "0xfffffff0064eb7f8",
+      "expected_sha256": "d56597fe92ac5b160158231293086815a2d9202a951c30462364e0f7a9ca220e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 363
+    },
+    {
+      "address": "0xfffffff0064eb844",
+      "expected_sha256": "adf78c15506855b924de6440fa59aee57638612a96fcbfa1366293e6b4c77ff1",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 65
+    },
+    {
+      "address": "0xfffffff0064eb8e8",
+      "expected_sha256": "80ad1ee54319ae8dad0567ea3a8f9b20aa901e8e0544ec7f39dcebb7031394b5",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 366
+    },
+    {
+      "address": "0xfffffff0064eb930",
+      "expected_sha256": "f0347c676acf1ac5c7ea61d6ef02754ef3e362a6854cb914a52fc406577e8bc1",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 357
+    },
+    {
+      "address": "0xfffffff0064eb950",
+      "expected_sha256": "5f8027a78404f3b243adee0c3df3dd12898a1cf0480c3a509d43729786eb5d28",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 56
+    },
+    {
+      "address": "0xfffffff0064eb95c",
+      "expected_sha256": "1922fe477698d9f5a43b97fa8100e6592308907a1671669d03239bfbca320478",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff0064eb9bc",
+      "expected_sha256": "dcf20af4c12c335cf999343a41429d89e9c9405f02fb8dba3544e7c9ad955a84",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 56
+    },
+    {
+      "address": "0xfffffff0064eb9c8",
+      "expected_sha256": "1922fe477698d9f5a43b97fa8100e6592308907a1671669d03239bfbca320478",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff0064eb9dc",
+      "expected_sha256": "2e187dcd7a50b1334a1c90c9d1c3780625354119b90c9852df213c73e35e708e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 361
+    },
+    {
+      "address": "0xfffffff0064eba0c",
+      "expected_sha256": "23785b4b00f0bed41925792e8036237da865a953fdf13c2e3bc9096de93c24b1",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358
+    },
+    {
+      "address": "0xfffffff0064eba24",
+      "expected_sha256": "5f8027a78404f3b243adee0c3df3dd12898a1cf0480c3a509d43729786eb5d28",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 56
+    },
+    {
+      "address": "0xfffffff0064eba30",
+      "expected_sha256": "1922fe477698d9f5a43b97fa8100e6592308907a1671669d03239bfbca320478",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff0064eba60",
+      "expected_sha256": "dd097ebddda3e62fdc046d1fde82173b730a7826b3e8890062855be913af6f36",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 362
+    },
+    {
+      "address": "0xfffffff0064ebab0",
+      "expected_sha256": "dcf20af4c12c335cf999343a41429d89e9c9405f02fb8dba3544e7c9ad955a84",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 56
+    },
+    {
+      "address": "0xfffffff0064ebabc",
+      "expected_sha256": "1922fe477698d9f5a43b97fa8100e6592308907a1671669d03239bfbca320478",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff0064ebacc",
+      "expected_sha256": "53bf92046b9fa1dbcc7e381fafd328ef09accd388755bd63343856e091d6d417",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 65
+    },
+    {
+      "address": "0xfffffff0064ebb04",
+      "expected_sha256": "752361e0d0e33e95b4cef452f7f5f3997f80eefafbf48bf79cadecb6ffa383fd",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 365
+    },
+    {
+      "address": "0xfffffff0064ebb24",
+      "expected_sha256": "d56597fe92ac5b160158231293086815a2d9202a951c30462364e0f7a9ca220e",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 363
+    },
+    {
+      "address": "0xfffffff0064ebb48",
+      "expected_sha256": "adf78c15506855b924de6440fa59aee57638612a96fcbfa1366293e6b4c77ff1",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 65
+    },
+    {
+      "address": "0xfffffff0064ebc44",
+      "expected_sha256": "5f8027a78404f3b243adee0c3df3dd12898a1cf0480c3a509d43729786eb5d28",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 56
+    },
+    {
+      "address": "0xfffffff0064ebc50",
+      "expected_sha256": "1922fe477698d9f5a43b97fa8100e6592308907a1671669d03239bfbca320478",
+      "reason": "Maggie/native-parent virtual slot adaptation",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff0064ebd1c",
+      "expected_sha256": "cc6f138882c0d1665293503e7652a570ce59076c25a62c4be91dae6dfd208b78",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 71
+    },
+    {
+      "address": "0xfffffff0064ebd24",
+      "expected_sha256": "024e1b044ddb4d9e9238c8a566ff7c33fd2388247701fbbef87fae20ffe916b5",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 70
+    },
+    {
+      "address": "0xfffffff0064ebd54",
+      "expected_sha256": "024e1b044ddb4d9e9238c8a566ff7c33fd2388247701fbbef87fae20ffe916b5",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 70
+    },
+    {
+      "address": "0xfffffff0064ebd64",
+      "expected_sha256": "8a258cdbda930a8b6fa5f48171431881bd38f5a1689f33ec5aed690ab39acd4e",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 70
+    },
+    {
+      "address": "0xfffffff0064ebd68",
+      "expected_sha256": "3f43318fe65189dac79037d2fb7b89f69b8971fca33255dcdd66de2f1c44e5c9",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 71
+    },
+    {
+      "address": "0xfffffff0064ebd7c",
+      "expected_sha256": "43807013e4396d92c11bdfbdb94b3116e4c3c53bcff4ef300030841a9fca2ba0",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 70
+    },
+    {
+      "address": "0xfffffff0064ebde4",
+      "expected_sha256": "3f43318fe65189dac79037d2fb7b89f69b8971fca33255dcdd66de2f1c44e5c9",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 71
+    },
+    {
+      "address": "0xfffffff0064ebe58",
+      "expected_sha256": "43807013e4396d92c11bdfbdb94b3116e4c3c53bcff4ef300030841a9fca2ba0",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 70
+    },
+    {
+      "address": "0xfffffff0064ebf00",
+      "expected_sha256": "e6bc75e5372cf8c10108320283698d3455f3f04c1c571b317cd0964903bdd6c6",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 71
+    },
+    {
+      "address": "0xfffffff0064ebf6c",
+      "expected_sha256": "c5672f67e7fe25425310b84f8ebcbb45d8e148b3fa4db6eea9590d8aeebee866",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 70
+    },
+    {
+      "address": "0xfffffff0064ec04c",
+      "expected_sha256": "1849809616022e0af8d514576bc49fca8f6b57dc8ed42c563c66303c35cb67e5",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 70
+    },
+    {
+      "address": "0xfffffff0064ec088",
+      "expected_sha256": "1849809616022e0af8d514576bc49fca8f6b57dc8ed42c563c66303c35cb67e5",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 70
+    },
+    {
+      "address": "0xfffffff0064ec100",
+      "expected_sha256": "9aa8826f37368349d3b4b7d765c3b23c32b8efb2bc1ef84e2deb0cb611dc488d",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 416
+    },
+    {
+      "address": "0xfffffff0064ec10c",
+      "expected_sha256": "9a673d1b8623d4044e575acf5c54cb62a1c4d0c6d2b07e9923e04c0988880119",
+      "reason": "Maggie instance field +8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 416
+    },
+    {
+      "address": "0xfffffff0064eb188",
+      "expected_sha256": "a2a763665540b8df733b3519c3cce1978a7ffac4cb8455c344062969c22e781d",
+      "reason": "Indexed ARC virtual call: selected slot number +1",
+      "kind": "instruction-immediate",
+      "mask": "0x1fffe0",
+      "shift": 5,
+      "value": 354
+    },
+    {
+      "address": "0xfffffff0064eb1b0",
+      "expected_sha256": "9ce3a67e7b05a6499c6f0fe84ea14cef07f992394f3314e4ec21647ba4085359",
+      "reason": "Indexed ARC virtual call: selected slot number +1",
+      "kind": "instruction-immediate",
+      "mask": "0x1fffe0",
+      "shift": 5,
+      "value": 353
+    },
+    {
+      "address": "0xfffffff0064e7368",
+      "expected_sha256": "435f7a08e0d8c8d06bc71895c9c35da04f0307e196811caeb381d0dc70c4d073",
+      "reason": "ARC class allocation/metadata size 616 -> 624",
+      "kind": "instruction-immediate",
+      "mask": "0x1fffe0",
+      "shift": 5,
+      "value": 624
+    },
+    {
+      "address": "0xfffffff0064e73f0",
+      "expected_sha256": "40efaad7f24720c6e990b5e477035613d61a3b0a3f70004bced20c46dfc09189",
+      "reason": "ARC class allocation/metadata size 616 -> 624",
+      "kind": "instruction-immediate",
+      "mask": "0x1fffe0",
+      "shift": 5,
+      "value": 624
+    },
+    {
+      "address": "0xfffffff0064e7438",
+      "expected_sha256": "435f7a08e0d8c8d06bc71895c9c35da04f0307e196811caeb381d0dc70c4d073",
+      "reason": "ARC class allocation/metadata size 616 -> 624",
+      "kind": "instruction-immediate",
+      "mask": "0x1fffe0",
+      "shift": 5,
+      "value": 624
+    },
+    {
+      "address": "0xfffffff0064e7468",
+      "expected_sha256": "c0aaf5e39d779c777978bad7483c90f201d10d8394ce7e76f6bfdb9c8ab063db",
+      "reason": "ARC class allocation/metadata size 616 -> 624",
+      "kind": "instruction-immediate",
+      "mask": "0x1fffe0",
+      "shift": 5,
+      "value": 624
+    },
+    {
+      "address": "0xfffffff0064ec258",
+      "expected_sha256": "435f7a08e0d8c8d06bc71895c9c35da04f0307e196811caeb381d0dc70c4d073",
+      "reason": "ARC class allocation/metadata size 616 -> 624",
+      "kind": "instruction-immediate",
+      "mask": "0x1fffe0",
+      "shift": 5,
+      "value": 624
+    },
+    {
+      "address": "0xfffffff006eef4cc",
+      "expected_sha256": "7c7289b17a89465391bd6145a413ce947790f0dd6cd9e175c4087eb4acf6ac58",
+      "reason": "ARC typed allocation descriptor 616 -> 624",
+      "kind": "scalar32",
+      "value": 624
+    }
+  ],
+  "pair_veneers": []
+}

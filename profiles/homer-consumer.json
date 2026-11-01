@@ -1,0 +1,102 @@
+{
+  "tables": [
+    {
+      "name": "AppleHomerDriver",
+      "size": 232,
+      "old_vtable": "0xfffffff006f10120",
+      "overrides": [
+        {
+          "slot": 0,
+          "target": "0xfffffff00659907c"
+        },
+        {
+          "slot": 1,
+          "target": "0xfffffff006599080"
+        },
+        {
+          "slot": 7,
+          "target": "0xfffffff0065990c4"
+        },
+        {
+          "slot": 21,
+          "target": "0xfffffff0065991f0"
+        },
+        {
+          "slot": 77,
+          "target": "0xfffffff0065995b0"
+        },
+        {
+          "slot": 81,
+          "target": "0xfffffff006599d70"
+        },
+        {
+          "slot": 82,
+          "target": "0xfffffff006599e38"
+        },
+        {
+          "slot": 168,
+          "target": "0xfffffff00659920c"
+        },
+        {
+          "slot": 169,
+          "target": "0xfffffff006599534"
+        }
+      ]
+    },
+    {
+      "name": "AppleHomerTemperature",
+      "size": 256,
+      "old_vtable": "0xfffffff006f10a18",
+      "overrides": [
+        {
+          "slot": 0,
+          "target": "0xfffffff00659a01c"
+        },
+        {
+          "slot": 1,
+          "target": "0xfffffff00659a020"
+        },
+        {
+          "slot": 7,
+          "target": "0xfffffff00659a064"
+        },
+        {
+          "slot": 21,
+          "target": "0xfffffff00659a190"
+        },
+        {
+          "slot": 77,
+          "target": "0xfffffff00659aa50"
+        },
+        {
+          "slot": 81,
+          "target": "0xfffffff00659ae74"
+        },
+        {
+          "slot": 82,
+          "target": "0xfffffff00659af50"
+        },
+        {
+          "slot": 168,
+          "target": "0xfffffff00659a280"
+        },
+        {
+          "slot": 169,
+          "target": "0xfffffff00659a9bc"
+        },
+        {
+          "slot": 201,
+          "target": "0xfffffff00659ae4c"
+        }
+      ]
+    }
+  ],
+  "private_bindings": {
+    "0xfffffff006d65100": "0xfffffff006d37a88",
+    "0xfffffff005bc10b4": "0xfffffff005aeac90",
+    "0xfffffff005bd1500": "0xfffffff005afb80c",
+    "0xfffffff007a2ef10": "0xfffffff007ae5710",
+    "0xfffffff006d649c8": "0xfffffff006d37350",
+    "0xfffffff005bc1074": "0xfffffff005aeac50"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "schema": 1,
+  "files": {
+    "Darwin/KPlooshFinder": {
+      "url": "https://raw.githubusercontent.com/verygenericname/SSHRD_Script/d99ec4a19172b87d80fd9dea25eabf39291425a0/Darwin/KPlooshFinder",
+      "sha256": "bb36c435bc345321b56764a64d047b79f951cd2669fd91da4a94228c9df5de77",
+      "size": 175776,
+      "mode": 493,
+      "repository": "https://github.com/verygenericname/SSHRD_Script",
+      "revision": "d99ec4a19172b87d80fd9dea25eabf39291425a0",
+      "distribution": "runtime-download-only",
+      "license_status": "No separate license grant confirmed for this binary; do not redistribute it with SevenUP."
+    },
+    "Darwin/iBoot64Patcher": {
+      "url": "https://raw.githubusercontent.com/verygenericname/SSHRD_Script/d99ec4a19172b87d80fd9dea25eabf39291425a0/Darwin/iBoot64Patcher",
+      "sha256": "bc61b24c7cb80d5dc88ee865c9c6ca4a8aef22c4f62b69eb3092b0a93833e810",
+      "size": 116924,
+      "mode": 493,
+      "repository": "https://github.com/verygenericname/SSHRD_Script",
+      "revision": "d99ec4a19172b87d80fd9dea25eabf39291425a0",
+      "distribution": "runtime-download-only",
+      "license_status": "No separate license grant confirmed for this binary; do not redistribute it with SevenUP."
+    },
+    "Darwin/img4": {
+      "url": "https://raw.githubusercontent.com/verygenericname/SSHRD_Script/d99ec4a19172b87d80fd9dea25eabf39291425a0/Darwin/img4",
+      "sha256": "950f92494494753b309bea222b7b76f786f4594aee547b93dcc28a5a63dd7b18",
+      "size": 97872,
+      "mode": 493,
+      "repository": "https://github.com/verygenericname/SSHRD_Script",
+      "revision": "d99ec4a19172b87d80fd9dea25eabf39291425a0",
+      "distribution": "runtime-download-only",
+      "license_status": "No separate license grant confirmed for this binary; do not redistribute it with SevenUP."
+    },
+    "Darwin/kerneldiff": {
+      "url": "https://raw.githubusercontent.com/verygenericname/SSHRD_Script/d99ec4a19172b87d80fd9dea25eabf39291425a0/Darwin/kerneldiff",
+      "sha256": "a6d8d4560f4abd0708b6918656b7c7ff622cb6c2f6480433408facdf275bd9bd",
+      "size": 33816,
+      "mode": 493,
+      "repository": "https://github.com/verygenericname/SSHRD_Script",
+      "revision": "d99ec4a19172b87d80fd9dea25eabf39291425a0",
+      "distribution": "runtime-download-only",
+      "license_status": "No separate license grant confirmed for this binary; do not redistribute it with SevenUP."
+    },
+    "resources/sshrd/ssh.tar.gz": {
+      "url": "https://raw.githubusercontent.com/verygenericname/sshtars/6c05c8a74095c63e1d130ecbf309d77efa6d17d5/ssh.tar.gz",
+      "sha256": "ddfa230acd2789c7e61ddb0d2ec3df9a6c741f2ddcab58fc1a826d278be1d74d",
+      "size": 11689859,
+      "mode": 420,
+      "repository": "https://github.com/verygenericname/sshtars",
+      "revision": "6c05c8a74095c63e1d130ecbf309d77efa6d17d5",
+      "distribution": "runtime-download-only",
+      "license_status": "Upstream mixed/preset asset; not included in the SevenUP source repository."
+    },
+    "resources/sshrd/0x8010.shsh": {
+      "url": "https://raw.githubusercontent.com/verygenericname/SSHRD_Script/d99ec4a19172b87d80fd9dea25eabf39291425a0/other/shsh/0x8010.shsh",
+      "sha256": "44063c69e41a463d573fe9f524fe615e467fe245d8967c1d2951d724e1baac7d",
+      "size": 28083,
+      "mode": 420,
+      "repository": "https://github.com/verygenericname/SSHRD_Script",
+      "revision": "d99ec4a19172b87d80fd9dea25eabf39291425a0",
+      "distribution": "runtime-download-only",
+      "license_status": "Upstream mixed/preset asset; not included in the SevenUP source repository."
+    }
+  }
+}

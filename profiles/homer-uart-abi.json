@@ -1,0 +1,4710 @@
+{
+  "schema": 1,
+  "scope": "UART and Homer class/vtable metadata and reviewed ABI immediate fields only",
+  "classes15": {
+    "IOHIDEventService": {
+      "name": "IOHIDEventService",
+      "bundle": "com.apple.iokit.IOHIDFamily",
+      "metaclass": "0xfffffff007a2ef10",
+      "super_metaclass": "0xfffffff007899790",
+      "instance_size": 200,
+      "ctor_call": "0xfffffff005bc5a28",
+      "vtable": "0xfffffff006d65100",
+      "virtual_slots": 217
+    },
+    "AppleHIDTransportDevice": {
+      "name": "AppleHIDTransportDevice",
+      "bundle": "com.apple.driver.AppleHIDTransport",
+      "metaclass": "0xfffffff007a368d8",
+      "super_metaclass": "0xfffffff007a36018",
+      "instance_size": 248,
+      "ctor_call": "0xfffffff005d89bbc",
+      "vtable": "0xfffffff006de32e8",
+      "virtual_slots": 218
+    },
+    "AppleHIDTransportBootloader": {
+      "name": "AppleHIDTransportBootloader",
+      "bundle": "com.apple.driver.AppleHIDTransport",
+      "metaclass": "0xfffffff007a36900",
+      "super_metaclass": "0xfffffff007a36018",
+      "instance_size": 288,
+      "ctor_call": "0xfffffff005d923e4",
+      "vtable": "0xfffffff006de3b20",
+      "virtual_slots": 228
+    },
+    "AppleHIDTransportInterface": {
+      "name": "AppleHIDTransportInterface",
+      "bundle": "com.apple.driver.AppleHIDTransport",
+      "metaclass": "0xfffffff007a36928",
+      "super_metaclass": "0xfffffff007a360e0",
+      "instance_size": 312,
+      "ctor_call": "0xfffffff005d98150",
+      "vtable": "0xfffffff006de44a0",
+      "virtual_slots": 205
+    },
+    "AppleHIDTransportProtocol": {
+      "name": "AppleHIDTransportProtocol",
+      "bundle": "com.apple.driver.AppleHIDTransport",
+      "metaclass": "0xfffffff007a36a68",
+      "super_metaclass": "0xfffffff007a36018",
+      "instance_size": 224,
+      "ctor_call": "0xfffffff005da5270",
+      "vtable": "0xfffffff006de7d00",
+      "virtual_slots": 208
+    },
+    "AppleHomerDriver": {
+      "name": "AppleHomerDriver",
+      "bundle": "com.apple.driver.AppleHomerDriver",
+      "metaclass": "0xfffffff007a537d8",
+      "super_metaclass": "0xfffffff007a2ef10",
+      "instance_size": 232,
+      "ctor_call": "0xfffffff006599f7c",
+      "vtable": "0xfffffff006f10110",
+      "virtual_slots": 217
+    },
+    "AppleHomerTemperature": {
+      "name": "AppleHomerTemperature",
+      "bundle": "com.apple.driver.AppleHomerDriver",
+      "metaclass": "0xfffffff007a53800",
+      "super_metaclass": "0xfffffff007a2ef10",
+      "instance_size": 256,
+      "ctor_call": "0xfffffff00659b054",
+      "vtable": "0xfffffff006f10a08",
+      "virtual_slots": 217
+    },
+    "AppleHIDTransportProtocolUART": {
+      "name": "AppleHIDTransportProtocolUART",
+      "bundle": "com.apple.driver.AppleHIDTransportUART",
+      "metaclass": "0xfffffff007b312a8",
+      "super_metaclass": "0xfffffff007a36a68",
+      "instance_size": 416,
+      "ctor_call": "0xfffffff006c98940",
+      "vtable": "0xfffffff006fefde0",
+      "virtual_slots": 210
+    },
+    "AppleHIDTransportDeviceUART": {
+      "name": "AppleHIDTransportDeviceUART",
+      "bundle": "com.apple.driver.AppleHIDTransportUART",
+      "metaclass": "0xfffffff007b312d0",
+      "super_metaclass": "0xfffffff007a368d8",
+      "instance_size": 520,
+      "ctor_call": "0xfffffff006c9fbb4",
+      "vtable": "0xfffffff006ff0558",
+      "virtual_slots": 228
+    },
+    "AppleHIDTransportBootloaderSTMB": {
+      "name": "AppleHIDTransportBootloaderSTMB",
+      "bundle": "com.apple.driver.AppleHIDTransportUART",
+      "metaclass": "0xfffffff007b312f8",
+      "super_metaclass": "0xfffffff007a36900",
+      "instance_size": 368,
+      "ctor_call": "0xfffffff006ca36a4",
+      "vtable": "0xfffffff006ff0de8",
+      "virtual_slots": 234
+    }
+  },
+  "classes16": {
+    "IOHIDEventService": {
+      "name": "IOHIDEventService",
+      "bundle": "com.apple.iokit.IOHIDFamily",
+      "metaclass": "0xfffffff007ae5710",
+      "super_metaclass": "0xfffffff007941a98",
+      "instance_size": 200,
+      "ctor_call": "0xfffffff005aefb98",
+      "vtable": "0xfffffff006d37a88",
+      "virtual_slots": 218
+    },
+    "AppleHIDTransportDevice": {
+      "name": "AppleHIDTransportDevice",
+      "bundle": "com.apple.driver.AppleHIDTransport",
+      "metaclass": "0xfffffff007aedd58",
+      "super_metaclass": "0xfffffff007ae6098",
+      "instance_size": 248,
+      "ctor_call": "0xfffffff005cd0cd8",
+      "vtable": "0xfffffff006dc7d78",
+      "virtual_slots": 220
+    },
+    "AppleHIDTransportBootloader": {
+      "name": "AppleHIDTransportBootloader",
+      "bundle": "com.apple.driver.AppleHIDTransport",
+      "metaclass": "0xfffffff007aedd80",
+      "super_metaclass": "0xfffffff007ae6098",
+      "instance_size": 296,
+      "ctor_call": "0xfffffff005cda8b8",
+      "vtable": "0xfffffff006dc85d0",
+      "virtual_slots": 233
+    },
+    "AppleHIDTransportInterface": {
+      "name": "AppleHIDTransportInterface",
+      "bundle": "com.apple.driver.AppleHIDTransport",
+      "metaclass": "0xfffffff007aedda8",
+      "super_metaclass": "0xfffffff007ae6160",
+      "instance_size": 400,
+      "ctor_call": "0xfffffff005ce1c24",
+      "vtable": "0xfffffff006dc8fa8",
+      "virtual_slots": 206
+    },
+    "AppleHIDTransportProtocol": {
+      "name": "AppleHIDTransportProtocol",
+      "bundle": "com.apple.driver.AppleHIDTransport",
+      "metaclass": "0xfffffff007aedee8",
+      "super_metaclass": "0xfffffff007ae6098",
+      "instance_size": 224,
+      "ctor_call": "0xfffffff005cefce8",
+      "vtable": "0xfffffff006dcc900",
+      "virtual_slots": 208
+    }
+  },
+  "bindings": {
+    "0xfffffff005bc1074": {
+      "target": "0xfffffff005aeac50",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc10b4": {
+      "target": "0xfffffff005aeac90",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc11d0": {
+      "target": "0xfffffff005aeadac",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc23d0": {
+      "target": "0xfffffff005aec0b0",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc2574": {
+      "target": "0xfffffff005aec254",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc260c": {
+      "target": "0xfffffff005aec2ec",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc2858": {
+      "target": "0xfffffff005aec538",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc2adc": {
+      "target": "0xfffffff005aec7bc",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc2e1c": {
+      "target": "0xfffffff005aecafc",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc2ef0": {
+      "target": "0xfffffff005aecbd0",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc2f88": {
+      "target": "0xfffffff005aecc68",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc3000": {
+      "target": "0xfffffff005aecce0",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc3044": {
+      "target": "0xfffffff005aecd24",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc3088": {
+      "target": "0xfffffff005aecd68",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc30cc": {
+      "target": "0xfffffff005aecdac",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc3110": {
+      "target": "0xfffffff005aecdf0",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc319c": {
+      "target": "0xfffffff005aece7c",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc3228": {
+      "target": "0xfffffff005aecf08",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc32b4": {
+      "target": "0xfffffff005aecf94",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc3340": {
+      "target": "0xfffffff005aed020",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc33cc": {
+      "target": "0xfffffff005aed0ac",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc3458": {
+      "target": "0xfffffff005aed138",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc3460": {
+      "target": "0xfffffff005aed140",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc346c": {
+      "target": "0xfffffff005aed14c",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc356c": {
+      "target": "0xfffffff005aed24c",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc3688": {
+      "target": "0xfffffff005aed368",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc3694": {
+      "target": "0xfffffff005aed374",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc3740": {
+      "target": "0xfffffff005aed420",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc3758": {
+      "target": "0xfffffff005aed438",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc3794": {
+      "target": "0xfffffff005aed474",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc37d4": {
+      "target": "0xfffffff005aed4b4",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc39ac": {
+      "target": "0xfffffff005aed68c",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc3a34": {
+      "target": "0xfffffff005aed714",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc41b0": {
+      "target": "0xfffffff005aede20",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc41e0": {
+      "target": "0xfffffff005aede50",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc424c": {
+      "target": "0xfffffff005aedebc",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc42b8": {
+      "target": "0xfffffff005aedf28",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc4328": {
+      "target": "0xfffffff005aedf98",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc43b8": {
+      "target": "0xfffffff005aee028",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc4454": {
+      "target": "0xfffffff005aee0c4",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc44bc": {
+      "target": "0xfffffff005aee12c",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc47dc": {
+      "target": "0xfffffff005aee44c",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc4858": {
+      "target": "0xfffffff005aee4c8",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc4a44": {
+      "target": "0xfffffff005aee6c4",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc4ae8": {
+      "target": "0xfffffff005aee768",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc4b8c": {
+      "target": "0xfffffff005aee80c",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc4b94": {
+      "target": "0xfffffff005aee814",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc4d78": {
+      "target": "0xfffffff005aee9b0",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc4d80": {
+      "target": "0xfffffff005aee9b8",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc4d88": {
+      "target": "0xfffffff005aee9c0",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc4d94": {
+      "target": "0xfffffff005aee9cc",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc4d9c": {
+      "target": "0xfffffff005aee9d4",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc4da0": {
+      "target": "0xfffffff005aee9d8",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc4e8c": {
+      "target": "0xfffffff005aeeac4",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc4e94": {
+      "target": "0xfffffff005aeeacc",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bc55b4": {
+      "target": "0xfffffff005aef6e8",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bd1500": {
+      "target": "0xfffffff005afb80c",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005bdffe0": {
+      "target": "0xfffffff005b0b108",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff006d649c8": {
+      "target": "0xfffffff006d37350",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "address-reference",
+      "evidence": {
+        "0xfffffff006d37350": 6
+      }
+    },
+    "0xfffffff006d65100": {
+      "target": "0xfffffff006d37a88",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "address-reference",
+      "evidence": {
+        "0xfffffff006d37a88": 17
+      }
+    },
+    "0xfffffff007a2ef10": {
+      "target": "0xfffffff007ae5710",
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "kind": "address-reference",
+      "evidence": {
+        "0xfffffff007ae5710": 13
+      }
+    },
+    "0xfffffff005d87038": {
+      "target": "0xfffffff005cce038",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d87060": {
+      "target": "0xfffffff005cce060",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d871e4": {
+      "target": "0xfffffff005cce1e4",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d873dc": {
+      "target": "0xfffffff005cce3dc",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d87f00": {
+      "target": "0xfffffff005ccef00",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d88218": {
+      "target": "0xfffffff005ccf230",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d882ac": {
+      "target": "0xfffffff005ccf2c4",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d882c8": {
+      "target": "0xfffffff005ccf2e0",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8833c": {
+      "target": "0xfffffff005ccf354",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d88420": {
+      "target": "0xfffffff005ccf450",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8846c": {
+      "target": "0xfffffff005ccf49c",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d884c8": {
+      "target": "0xfffffff005ccf4f8",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d88784": {
+      "target": "0xfffffff005ccf7b4",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8878c": {
+      "target": "0xfffffff005ccf7bc",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d88810": {
+      "target": "0xfffffff005ccf840",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d88970": {
+      "target": "0xfffffff005ccf9a0",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d88978": {
+      "target": "0xfffffff005ccf9a8",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d889dc": {
+      "target": "0xfffffff005ccfa0c",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d889e4": {
+      "target": "0xfffffff005ccfa14",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d889ec": {
+      "target": "0xfffffff005ccfa1c",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d88e04": {
+      "target": "0xfffffff005ccfe34",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d89050": {
+      "target": "0xfffffff005cd0080",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d89058": {
+      "target": "0xfffffff005cd0088",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d89070": {
+      "target": "0xfffffff005cd00a0",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d89124": {
+      "target": "0xfffffff005cd0154",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d891d8": {
+      "target": "0xfffffff005cd0208",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d89388": {
+      "target": "0xfffffff005cd03b8",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d893f0": {
+      "target": "0xfffffff005cd0420",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d89408": {
+      "target": "0xfffffff005cd0438",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d89470": {
+      "target": "0xfffffff005cd04a0",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d89488": {
+      "target": "0xfffffff005cd04b8",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d894a0": {
+      "target": "0xfffffff005cd04d0",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d895bc": {
+      "target": "0xfffffff005cd061c",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d895c8": {
+      "target": "0xfffffff005cd0628",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d895d4": {
+      "target": "0xfffffff005cd0634",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8976c": {
+      "target": "0xfffffff005cd07cc",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d89784": {
+      "target": "0xfffffff005cd0888",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8983c": {
+      "target": "0xfffffff005cd0940",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d89c18": {
+      "target": "0xfffffff005cd0d34",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d89c38": {
+      "target": "0xfffffff005cd0d54",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8ae64": {
+      "target": "0xfffffff005cd2104",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8b044": {
+      "target": "0xfffffff005cd22e4",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8b0c0": {
+      "target": "0xfffffff005cd2360",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8b678": {
+      "target": "0xfffffff005cd2918",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8b7c0": {
+      "target": "0xfffffff005cd2a60",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8bac0": {
+      "target": "0xfffffff005cd2d60",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8be90": {
+      "target": "0xfffffff005cd3130",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8bea0": {
+      "target": "0xfffffff005cd3140",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8becc": {
+      "target": "0xfffffff005cd316c",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8bf08": {
+      "target": "0xfffffff005cd31a8",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8bf34": {
+      "target": "0xfffffff005cd31d4",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8bf6c": {
+      "target": "0xfffffff005cd320c",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8bf74": {
+      "target": "0xfffffff005cd3214",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8bf7c": {
+      "target": "0xfffffff005cd321c",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8bf84": {
+      "target": "0xfffffff005cd331c",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8bf8c": {
+      "target": "0xfffffff005cd3324",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8c2b4": {
+      "target": "0xfffffff005cd3694",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8c63c": {
+      "target": "0xfffffff005cd41ac",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8cfd4": {
+      "target": "0xfffffff005cd4610",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8cfe4": {
+      "target": "0xfffffff005cd4620",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8d7f8": {
+      "target": "0xfffffff005cd4e34",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8db88": {
+      "target": "0xfffffff005cd51c4",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8ef70": {
+      "target": "0xfffffff005cd6f48",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8f308": {
+      "target": "0xfffffff005cd72e0",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d8ff60": {
+      "target": "0xfffffff005cd7ff0",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d90434": {
+      "target": "0xfffffff005cd84c4",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d90558": {
+      "target": "0xfffffff005cd85e8",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d90688": {
+      "target": "0xfffffff005cd8718",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d91364": {
+      "target": "0xfffffff005cd96a8",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d914e8": {
+      "target": "0xfffffff005cd982c",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d91b84": {
+      "target": "0xfffffff005cd9ec8",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d91c94": {
+      "target": "0xfffffff005cd9fd8",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d92124": {
+      "target": "0xfffffff005cda5cc",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d92168": {
+      "target": "0xfffffff005cda610",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d92244": {
+      "target": "0xfffffff005cda6ec",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005da2df4": {
+      "target": "0xfffffff005ced8c0",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005da2e14": {
+      "target": "0xfffffff005ced8e0",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005da2e8c": {
+      "target": "0xfffffff005ced958",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005da2f30": {
+      "target": "0xfffffff005ced9cc",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005da3294": {
+      "target": "0xfffffff005cedd30",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005da33a0": {
+      "target": "0xfffffff005cede6c",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005da3da0": {
+      "target": "0xfffffff005cee818",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005da3de4": {
+      "target": "0xfffffff005cee85c",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005da3e04": {
+      "target": "0xfffffff005cee87c",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005da3f6c": {
+      "target": "0xfffffff005cee9e4",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005da3fdc": {
+      "target": "0xfffffff005ceea54",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005da40cc": {
+      "target": "0xfffffff005ceeb44",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005da42b8": {
+      "target": "0xfffffff005ceed30",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005da43a8": {
+      "target": "0xfffffff005ceee20",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005da454c": {
+      "target": "0xfffffff005ceefc4",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005da46b8": {
+      "target": "0xfffffff005cef130",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005da46e0": {
+      "target": "0xfffffff005cef158",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005da4d44": {
+      "target": "0xfffffff005cef7bc",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005da4da8": {
+      "target": "0xfffffff005cef820",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005da4e0c": {
+      "target": "0xfffffff005cef884",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005da4e70": {
+      "target": "0xfffffff005cef8e8",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005da4edc": {
+      "target": "0xfffffff005cef954",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005da4f40": {
+      "target": "0xfffffff005cef9b8",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005da4f58": {
+      "target": "0xfffffff005cef9d0",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005da512c": {
+      "target": "0xfffffff005cefba4",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005db1e78": {
+      "target": "0xfffffff005cfeadc",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff006de32e8": {
+      "target": "0xfffffff006dc7d78",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "vtable-header-from-address-point",
+      "evidence": {}
+    },
+    "0xfffffff006de3b20": {
+      "target": "0xfffffff006dc85d0",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "address-reference",
+      "evidence": {
+        "0xfffffff006dc85d0": 1
+      }
+    },
+    "0xfffffff006de4320": {
+      "target": "0xfffffff006dc8df8",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "address-reference",
+      "evidence": {
+        "0xfffffff006dc8df8": 1
+      }
+    },
+    "0xfffffff006de4328": {
+      "target": "0xfffffff006dc8e00",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "address-reference",
+      "evidence": {
+        "0xfffffff006dc8e00": 2
+      }
+    },
+    "0xfffffff006de4338": {
+      "target": "0xfffffff006dc8e10",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "address-reference",
+      "evidence": {
+        "0xfffffff006dc8e10": 1
+      }
+    },
+    "0xfffffff006de4350": {
+      "target": "0xfffffff006dc8e28",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "address-reference",
+      "evidence": {
+        "0xfffffff006dc8e28": 1
+      }
+    },
+    "0xfffffff006de4c50": {
+      "target": "0xfffffff006dc9770",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "address-reference",
+      "evidence": {
+        "0xfffffff006dc9770": 3
+      }
+    },
+    "0xfffffff006de4c78": {
+      "target": "0xfffffff006dc9798",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "address-reference",
+      "evidence": {
+        "0xfffffff006dc9798": 2
+      }
+    },
+    "0xfffffff006de4c98": {
+      "target": "0xfffffff006dc97b8",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "address-reference",
+      "evidence": {
+        "0xfffffff006dc97b8": 5
+      }
+    },
+    "0xfffffff006de7d00": {
+      "target": "0xfffffff006dcc900",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "vtable-header-from-address-point",
+      "evidence": {}
+    },
+    "0xfffffff007a368d8": {
+      "target": "0xfffffff007aedd58",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "address-reference",
+      "evidence": {
+        "0xfffffff007aedd58": 11
+      }
+    },
+    "0xfffffff007a36900": {
+      "target": "0xfffffff007aedd80",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "address-reference",
+      "evidence": {
+        "0xfffffff007aedd80": 13
+      }
+    },
+    "0xfffffff007a36a68": {
+      "target": "0xfffffff007aedee8",
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "kind": "address-reference",
+      "evidence": {
+        "0xfffffff007aedee8": 9
+      }
+    },
+    "0xfffffff005d5123c": {
+      "target": "0xfffffff005b1323c",
+      "owner": "com.apple.driver.AppleInputDeviceSupport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d5129c": {
+      "target": "0xfffffff005b1329c",
+      "owner": "com.apple.driver.AppleInputDeviceSupport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d512e0": {
+      "target": "0xfffffff005b132e0",
+      "owner": "com.apple.driver.AppleInputDeviceSupport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d51368": {
+      "target": "0xfffffff005b13368",
+      "owner": "com.apple.driver.AppleInputDeviceSupport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff005d513c4": {
+      "target": "0xfffffff005b133c4",
+      "owner": "com.apple.driver.AppleInputDeviceSupport",
+      "kind": "instruction-alignment",
+      "evidence": {}
+    },
+    "0xfffffff006da6e48": {
+      "target": "0xfffffff006d8f288",
+      "owner": "com.apple.iokit.IOSerialFamily",
+      "kind": "address-reference",
+      "evidence": {
+        "0xfffffff006d8f288": 1
+      }
+    }
+  },
+  "comparisons": [
+    {
+      "owner": "com.apple.iokit.IOHIDFamily",
+      "old": "0xfffffff006d65100",
+      "new": "0xfffffff006d37a88",
+      "old_slots": 217,
+      "new_slots": 218,
+      "same_slot_matches": 212,
+      "next_score": 207,
+      "mismatches": [
+        {
+          "slot": 132,
+          "offset": "0x430",
+          "old": "0xfffffff005bc4cfc",
+          "new": "0xfffffff005aee97c",
+          "mapped": null,
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 213,
+          "offset": "0x6b8",
+          "old": "0xfffffff005bc4fbc",
+          "new": "0xfffffff005aeebf4",
+          "mapped": null,
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 214,
+          "offset": "0x6c0",
+          "old": "0xfffffff005bc55ac",
+          "new": "0xfffffff005aef558",
+          "mapped": null,
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 215,
+          "offset": "0x6c8",
+          "old": "0xfffffff005bc55b0",
+          "new": "0xfffffff005aef55c",
+          "mapped": null,
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 216,
+          "offset": "0x6d0",
+          "old": "0xfffffff005bc55b4",
+          "new": "0xfffffff005aef560",
+          "mapped": "0xfffffff005aef6e8",
+          "old_names": [],
+          "new_names": []
+        }
+      ],
+      "edits": [
+        [
+          "equal",
+          0,
+          132,
+          0,
+          132
+        ],
+        [
+          "replace",
+          132,
+          133,
+          132,
+          133
+        ],
+        [
+          "equal",
+          133,
+          213,
+          133,
+          213
+        ],
+        [
+          "replace",
+          213,
+          217,
+          213,
+          218
+        ]
+      ],
+      "slot_correspondence": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10,
+        "11": 11,
+        "12": 12,
+        "13": 13,
+        "14": 14,
+        "15": 15,
+        "16": 16,
+        "17": 17,
+        "18": 18,
+        "19": 19,
+        "20": 20,
+        "21": 21,
+        "22": 22,
+        "23": 23,
+        "24": 24,
+        "25": 25,
+        "26": 26,
+        "27": 27,
+        "28": 28,
+        "29": 29,
+        "30": 30,
+        "31": 31,
+        "32": 32,
+        "33": 33,
+        "34": 34,
+        "35": 35,
+        "36": 36,
+        "37": 37,
+        "38": 38,
+        "39": 39,
+        "40": 40,
+        "41": 41,
+        "42": 42,
+        "43": 43,
+        "44": 44,
+        "45": 45,
+        "46": 46,
+        "47": 47,
+        "48": 48,
+        "49": 49,
+        "50": 50,
+        "51": 51,
+        "52": 52,
+        "53": 53,
+        "54": 54,
+        "55": 55,
+        "56": 56,
+        "57": 57,
+        "58": 58,
+        "59": 59,
+        "60": 60,
+        "61": 61,
+        "62": 62,
+        "63": 63,
+        "64": 64,
+        "65": 65,
+        "66": 66,
+        "67": 67,
+        "68": 68,
+        "69": 69,
+        "70": 70,
+        "71": 71,
+        "72": 72,
+        "73": 73,
+        "74": 74,
+        "75": 75,
+        "76": 76,
+        "77": 77,
+        "78": 78,
+        "79": 79,
+        "80": 80,
+        "81": 81,
+        "82": 82,
+        "83": 83,
+        "84": 84,
+        "85": 85,
+        "86": 86,
+        "87": 87,
+        "88": 88,
+        "89": 89,
+        "90": 90,
+        "91": 91,
+        "92": 92,
+        "93": 93,
+        "94": 94,
+        "95": 95,
+        "96": 96,
+        "97": 97,
+        "98": 98,
+        "99": 99,
+        "100": 100,
+        "101": 101,
+        "102": 102,
+        "103": 103,
+        "104": 104,
+        "105": 105,
+        "106": 106,
+        "107": 107,
+        "108": 108,
+        "109": 109,
+        "110": 110,
+        "111": 111,
+        "112": 112,
+        "113": 113,
+        "114": 114,
+        "115": 115,
+        "116": 116,
+        "117": 117,
+        "118": 118,
+        "119": 119,
+        "120": 120,
+        "121": 121,
+        "122": 122,
+        "123": 123,
+        "124": 124,
+        "125": 125,
+        "126": 126,
+        "127": 127,
+        "128": 128,
+        "129": 129,
+        "130": 130,
+        "131": 131,
+        "132": 132,
+        "133": 133,
+        "134": 134,
+        "135": 135,
+        "136": 136,
+        "137": 137,
+        "138": 138,
+        "139": 139,
+        "140": 140,
+        "141": 141,
+        "142": 142,
+        "143": 143,
+        "144": 144,
+        "145": 145,
+        "146": 146,
+        "147": 147,
+        "148": 148,
+        "149": 149,
+        "150": 150,
+        "151": 151,
+        "152": 152,
+        "153": 153,
+        "154": 154,
+        "155": 155,
+        "156": 156,
+        "157": 157,
+        "158": 158,
+        "159": 159,
+        "160": 160,
+        "161": 161,
+        "162": 162,
+        "163": 163,
+        "164": 164,
+        "165": 165,
+        "166": 166,
+        "167": 167,
+        "168": 168,
+        "169": 169,
+        "170": 170,
+        "171": 171,
+        "172": 172,
+        "173": 173,
+        "174": 174,
+        "175": 175,
+        "176": 176,
+        "177": 177,
+        "178": 178,
+        "179": 179,
+        "180": 180,
+        "181": 181,
+        "182": 182,
+        "183": 183,
+        "184": 184,
+        "185": 185,
+        "186": 186,
+        "187": 187,
+        "188": 188,
+        "189": 189,
+        "190": 190,
+        "191": 191,
+        "192": 192,
+        "193": 193,
+        "194": 194,
+        "195": 195,
+        "196": 196,
+        "197": 197,
+        "198": 198,
+        "199": 199,
+        "200": 200,
+        "201": 201,
+        "202": 202,
+        "203": 203,
+        "204": 204,
+        "205": 205,
+        "206": 206,
+        "207": 207,
+        "208": 208,
+        "209": 209,
+        "210": 210,
+        "211": 211,
+        "212": 212
+      },
+      "paired_by_index": true
+    },
+    {
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "old": "0xfffffff006de32e8",
+      "new": "0xfffffff006dc7d78",
+      "old_slots": 218,
+      "new_slots": 220,
+      "same_slot_matches": 217,
+      "next_score": 191,
+      "mismatches": [
+        {
+          "slot": 186,
+          "offset": "0x5e0",
+          "old": "0xfffffff005d895d4",
+          "new": "0xfffffff005cd0b74",
+          "mapped": "0xfffffff005cd0634",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 187,
+          "offset": "0x5e8",
+          "old": "0xfffffff005d89a70",
+          "new": "0xfffffff005cd0634",
+          "mapped": null,
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 188,
+          "offset": "0x5f0",
+          "old": "0xfffffff005d89a98",
+          "new": "0xfffffff005cd0b80",
+          "mapped": "0xfffffff005cd0ba8",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 189,
+          "offset": "0x5f8",
+          "old": "0xfffffff005d889dc",
+          "new": "0xfffffff005cd0ba8",
+          "mapped": "0xfffffff005ccfa0c",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 190,
+          "offset": "0x600",
+          "old": "0xfffffff005d89ac0",
+          "new": "0xfffffff005ccfa0c",
+          "mapped": "0xfffffff005cd0bd0",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 191,
+          "offset": "0x608",
+          "old": "0xfffffff005d8983c",
+          "new": "0xfffffff005cd07d4",
+          "mapped": "0xfffffff005cd0940",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 192,
+          "offset": "0x610",
+          "old": "0xfffffff005d89acc",
+          "new": "0xfffffff005cd0bd0",
+          "mapped": "0xfffffff005cd0bdc",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 193,
+          "offset": "0x618",
+          "old": "0xfffffff005d89ad4",
+          "new": "0xfffffff005cd0940",
+          "mapped": "0xfffffff005cd0be4",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 194,
+          "offset": "0x620",
+          "old": "0xfffffff005d89adc",
+          "new": "0xfffffff005cd0bdc",
+          "mapped": "0xfffffff005cd0bec",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 195,
+          "offset": "0x628",
+          "old": "0xfffffff005d873dc",
+          "new": "0xfffffff005cd0be4",
+          "mapped": "0xfffffff005cce3dc",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 196,
+          "offset": "0x630",
+          "old": "0xfffffff005d89ae4",
+          "new": "0xfffffff005cd0bec",
+          "mapped": "0xfffffff005cd0bf4",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 197,
+          "offset": "0x638",
+          "old": "0xfffffff005d89aec",
+          "new": "0xfffffff005cce3dc",
+          "mapped": "0xfffffff005cd0bfc",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 198,
+          "offset": "0x640",
+          "old": "0xfffffff005d89af0",
+          "new": "0xfffffff005cd0bf4",
+          "mapped": "0xfffffff005cd0c00",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 199,
+          "offset": "0x648",
+          "old": "0xfffffff005d89af8",
+          "new": "0xfffffff005cd0bfc",
+          "mapped": "0xfffffff005cd0c08",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 200,
+          "offset": "0x650",
+          "old": "0xfffffff005d89afc",
+          "new": "0xfffffff005cd0c00",
+          "mapped": "0xfffffff005cd0c0c",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 201,
+          "offset": "0x658",
+          "old": "0xfffffff005d89b00",
+          "new": "0xfffffff005cd0c08",
+          "mapped": "0xfffffff005cd0c10",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 202,
+          "offset": "0x660",
+          "old": "0xfffffff005d884c8",
+          "new": "0xfffffff005cd0c0c",
+          "mapped": "0xfffffff005ccf4f8",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 203,
+          "offset": "0x668",
+          "old": "0xfffffff005d8878c",
+          "new": "0xfffffff005cd0c10",
+          "mapped": "0xfffffff005ccf7bc",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 204,
+          "offset": "0x670",
+          "old": "0xfffffff005d88810",
+          "new": "0xfffffff005ccf4f8",
+          "mapped": "0xfffffff005ccf840",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 205,
+          "offset": "0x678",
+          "old": "0xfffffff005d88978",
+          "new": "0xfffffff005ccf7bc",
+          "mapped": "0xfffffff005ccf9a8",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 206,
+          "offset": "0x680",
+          "old": "0xfffffff005d889ec",
+          "new": "0xfffffff005ccf840",
+          "mapped": "0xfffffff005ccfa1c",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 207,
+          "offset": "0x688",
+          "old": "0xfffffff005d89b08",
+          "new": "0xfffffff005ccf9a8",
+          "mapped": "0xfffffff005cd0c18",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 208,
+          "offset": "0x690",
+          "old": "0xfffffff007701010",
+          "new": "0xfffffff005ccfa1c",
+          "mapped": "0xfffffff00778df94",
+          "old_names": [
+            "___cxa_pure_virtual"
+          ],
+          "new_names": []
+        },
+        {
+          "slot": 209,
+          "offset": "0x698",
+          "old": "0xfffffff005d89070",
+          "new": "0xfffffff005cd0c18",
+          "mapped": "0xfffffff005cd00a0",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 210,
+          "offset": "0x6a0",
+          "old": "0xfffffff005d891d8",
+          "new": "0xfffffff00778df94",
+          "mapped": "0xfffffff005cd0208",
+          "old_names": [],
+          "new_names": [
+            "___cxa_pure_virtual"
+          ]
+        },
+        {
+          "slot": 211,
+          "offset": "0x6a8",
+          "old": "0xfffffff005d89b10",
+          "new": "0xfffffff005cd00a0",
+          "mapped": "0xfffffff005cd0c20",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 212,
+          "offset": "0x6b0",
+          "old": "0xfffffff005d882ac",
+          "new": "0xfffffff005cd0208",
+          "mapped": "0xfffffff005ccf2c4",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 213,
+          "offset": "0x6b8",
+          "old": "0xfffffff005d89b18",
+          "new": "0xfffffff005cd0c20",
+          "mapped": "0xfffffff005cd0c28",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 214,
+          "offset": "0x6c0",
+          "old": "0xfffffff005d8833c",
+          "new": "0xfffffff005ccf2c4",
+          "mapped": "0xfffffff005ccf354",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 215,
+          "offset": "0x6c8",
+          "old": "0xfffffff005d8846c",
+          "new": "0xfffffff005cd0c28",
+          "mapped": "0xfffffff005ccf49c",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 216,
+          "offset": "0x6d0",
+          "old": "0xfffffff005d89b20",
+          "new": "0xfffffff005ccf354",
+          "mapped": "0xfffffff005cd0c30",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 217,
+          "offset": "0x6d8",
+          "old": "0xfffffff005d89b24",
+          "new": "0xfffffff005ccf49c",
+          "mapped": "0xfffffff005cd0c34",
+          "old_names": [],
+          "new_names": []
+        }
+      ],
+      "edits": [
+        [
+          "equal",
+          0,
+          186,
+          0,
+          186
+        ],
+        [
+          "insert",
+          186,
+          186,
+          186,
+          187
+        ],
+        [
+          "equal",
+          186,
+          187,
+          187,
+          188
+        ],
+        [
+          "replace",
+          187,
+          188,
+          188,
+          189
+        ],
+        [
+          "equal",
+          188,
+          190,
+          189,
+          191
+        ],
+        [
+          "insert",
+          190,
+          190,
+          191,
+          192
+        ],
+        [
+          "equal",
+          190,
+          218,
+          192,
+          220
+        ]
+      ],
+      "slot_correspondence": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10,
+        "11": 11,
+        "12": 12,
+        "13": 13,
+        "14": 14,
+        "15": 15,
+        "16": 16,
+        "17": 17,
+        "18": 18,
+        "19": 19,
+        "20": 20,
+        "21": 21,
+        "22": 22,
+        "23": 23,
+        "24": 24,
+        "25": 25,
+        "26": 26,
+        "27": 27,
+        "28": 28,
+        "29": 29,
+        "30": 30,
+        "31": 31,
+        "32": 32,
+        "33": 33,
+        "34": 34,
+        "35": 35,
+        "36": 36,
+        "37": 37,
+        "38": 38,
+        "39": 39,
+        "40": 40,
+        "41": 41,
+        "42": 42,
+        "43": 43,
+        "44": 44,
+        "45": 45,
+        "46": 46,
+        "47": 47,
+        "48": 48,
+        "49": 49,
+        "50": 50,
+        "51": 51,
+        "52": 52,
+        "53": 53,
+        "54": 54,
+        "55": 55,
+        "56": 56,
+        "57": 57,
+        "58": 58,
+        "59": 59,
+        "60": 60,
+        "61": 61,
+        "62": 62,
+        "63": 63,
+        "64": 64,
+        "65": 65,
+        "66": 66,
+        "67": 67,
+        "68": 68,
+        "69": 69,
+        "70": 70,
+        "71": 71,
+        "72": 72,
+        "73": 73,
+        "74": 74,
+        "75": 75,
+        "76": 76,
+        "77": 77,
+        "78": 78,
+        "79": 79,
+        "80": 80,
+        "81": 81,
+        "82": 82,
+        "83": 83,
+        "84": 84,
+        "85": 85,
+        "86": 86,
+        "87": 87,
+        "88": 88,
+        "89": 89,
+        "90": 90,
+        "91": 91,
+        "92": 92,
+        "93": 93,
+        "94": 94,
+        "95": 95,
+        "96": 96,
+        "97": 97,
+        "98": 98,
+        "99": 99,
+        "100": 100,
+        "101": 101,
+        "102": 102,
+        "103": 103,
+        "104": 104,
+        "105": 105,
+        "106": 106,
+        "107": 107,
+        "108": 108,
+        "109": 109,
+        "110": 110,
+        "111": 111,
+        "112": 112,
+        "113": 113,
+        "114": 114,
+        "115": 115,
+        "116": 116,
+        "117": 117,
+        "118": 118,
+        "119": 119,
+        "120": 120,
+        "121": 121,
+        "122": 122,
+        "123": 123,
+        "124": 124,
+        "125": 125,
+        "126": 126,
+        "127": 127,
+        "128": 128,
+        "129": 129,
+        "130": 130,
+        "131": 131,
+        "132": 132,
+        "133": 133,
+        "134": 134,
+        "135": 135,
+        "136": 136,
+        "137": 137,
+        "138": 138,
+        "139": 139,
+        "140": 140,
+        "141": 141,
+        "142": 142,
+        "143": 143,
+        "144": 144,
+        "145": 145,
+        "146": 146,
+        "147": 147,
+        "148": 148,
+        "149": 149,
+        "150": 150,
+        "151": 151,
+        "152": 152,
+        "153": 153,
+        "154": 154,
+        "155": 155,
+        "156": 156,
+        "157": 157,
+        "158": 158,
+        "159": 159,
+        "160": 160,
+        "161": 161,
+        "162": 162,
+        "163": 163,
+        "164": 164,
+        "165": 165,
+        "166": 166,
+        "167": 167,
+        "168": 168,
+        "169": 169,
+        "170": 170,
+        "171": 171,
+        "172": 172,
+        "173": 173,
+        "174": 174,
+        "175": 175,
+        "176": 176,
+        "177": 177,
+        "178": 178,
+        "179": 179,
+        "180": 180,
+        "181": 181,
+        "182": 182,
+        "183": 183,
+        "184": 184,
+        "185": 185,
+        "186": 187,
+        "187": 188,
+        "188": 189,
+        "189": 190,
+        "190": 192,
+        "191": 193,
+        "192": 194,
+        "193": 195,
+        "194": 196,
+        "195": 197,
+        "196": 198,
+        "197": 199,
+        "198": 200,
+        "199": 201,
+        "200": 202,
+        "201": 203,
+        "202": 204,
+        "203": 205,
+        "204": 206,
+        "205": 207,
+        "206": 208,
+        "207": 209,
+        "208": 210,
+        "209": 211,
+        "210": 212,
+        "211": 213,
+        "212": 214,
+        "213": 215,
+        "214": 216,
+        "215": 217,
+        "216": 218,
+        "217": 219
+      },
+      "paired_by_index": true
+    },
+    {
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "old": "0xfffffff006de3b20",
+      "new": "0xfffffff006dc85d0",
+      "old_slots": 228,
+      "new_slots": 233,
+      "same_slot_matches": 225,
+      "next_score": 199,
+      "mismatches": [
+        {
+          "slot": 168,
+          "offset": "0x550",
+          "old": "0xfffffff005d89d88",
+          "new": "0xfffffff005cd0ea4",
+          "mapped": null,
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 179,
+          "offset": "0x5a8",
+          "old": "0xfffffff005d92340",
+          "new": "0xfffffff005cd9fe4",
+          "mapped": "0xfffffff005cda7e8",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 180,
+          "offset": "0x5b0",
+          "old": "0xfffffff005d9234c",
+          "new": "0xfffffff005cda7e8",
+          "mapped": "0xfffffff005cda7f4",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 181,
+          "offset": "0x5b8",
+          "old": "0xfffffff005d8bf6c",
+          "new": "0xfffffff005cda7f4",
+          "mapped": "0xfffffff005cd320c",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 182,
+          "offset": "0x5c0",
+          "old": "0xfffffff005d8bf74",
+          "new": "0xfffffff005cd320c",
+          "mapped": "0xfffffff005cd3214",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 183,
+          "offset": "0x5c8",
+          "old": "0xfffffff005d8bf84",
+          "new": "0xfffffff005cd3214",
+          "mapped": "0xfffffff005cd331c",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 184,
+          "offset": "0x5d0",
+          "old": "0xfffffff005d8cfd4",
+          "new": "0xfffffff005cd331c",
+          "mapped": "0xfffffff005cd4610",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 185,
+          "offset": "0x5d8",
+          "old": "0xfffffff005d90434",
+          "new": "0xfffffff005cd4610",
+          "mapped": "0xfffffff005cd84c4",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 186,
+          "offset": "0x5e0",
+          "old": "0xfffffff005d90558",
+          "new": "0xfffffff005cd84c4",
+          "mapped": "0xfffffff005cd85e8",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 187,
+          "offset": "0x5e8",
+          "old": "0xfffffff005d8bea0",
+          "new": "0xfffffff005cd85e8",
+          "mapped": "0xfffffff005cd3140",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 188,
+          "offset": "0x5f0",
+          "old": "0xfffffff005d8bf08",
+          "new": "0xfffffff005cd94a4",
+          "mapped": "0xfffffff005cd31a8",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 189,
+          "offset": "0x5f8",
+          "old": "0xfffffff005d92354",
+          "new": "0xfffffff005cd3140",
+          "mapped": "0xfffffff005cda7fc",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 190,
+          "offset": "0x600",
+          "old": "0xfffffff005d92360",
+          "new": "0xfffffff005cd31a8",
+          "mapped": "0xfffffff005cda808",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 191,
+          "offset": "0x608",
+          "old": "0xfffffff005d8b678",
+          "new": "0xfffffff005cda7fc",
+          "mapped": "0xfffffff005cd2918",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 192,
+          "offset": "0x610",
+          "old": "0xfffffff005d8b7c0",
+          "new": "0xfffffff005cda808",
+          "mapped": "0xfffffff005cd2a60",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 193,
+          "offset": "0x618",
+          "old": "0xfffffff005d92368",
+          "new": "0xfffffff005cd3224",
+          "mapped": "0xfffffff005cda810",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 194,
+          "offset": "0x620",
+          "old": "0xfffffff005d9236c",
+          "new": "0xfffffff005cd2918",
+          "mapped": "0xfffffff005cda814",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 195,
+          "offset": "0x628",
+          "old": "0xfffffff005d92374",
+          "new": "0xfffffff005cd2a60",
+          "mapped": "0xfffffff005cda81c",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 196,
+          "offset": "0x630",
+          "old": "0xfffffff005d91ca0",
+          "new": "0xfffffff005cda810",
+          "mapped": null,
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 197,
+          "offset": "0x638",
+          "old": "0xfffffff005d8b0c0",
+          "new": "0xfffffff005cda814",
+          "mapped": "0xfffffff005cd2360",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 198,
+          "offset": "0x640",
+          "old": "0xfffffff005d8bac0",
+          "new": "0xfffffff005cda81c",
+          "mapped": "0xfffffff005cd2d60",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 199,
+          "offset": "0x648",
+          "old": "0xfffffff005d8bf8c",
+          "new": "0xfffffff005cd9ff4",
+          "mapped": "0xfffffff005cd3324",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 200,
+          "offset": "0x650",
+          "old": "0xfffffff005d8c2b4",
+          "new": "0xfffffff005cd2360",
+          "mapped": "0xfffffff005cd3694",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 201,
+          "offset": "0x658",
+          "old": "0xfffffff005d8cc44",
+          "new": "0xfffffff005cd2d60",
+          "mapped": null,
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 202,
+          "offset": "0x660",
+          "old": "0xfffffff005d8c63c",
+          "new": "0xfffffff005cd3324",
+          "mapped": "0xfffffff005cd41ac",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 203,
+          "offset": "0x668",
+          "old": "0xfffffff005d90688",
+          "new": "0xfffffff005cd3694",
+          "mapped": "0xfffffff005cd8718",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 204,
+          "offset": "0x670",
+          "old": "0xfffffff005d914e8",
+          "new": "0xfffffff005cd41ac",
+          "mapped": "0xfffffff005cd982c",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 205,
+          "offset": "0x678",
+          "old": "0xfffffff005d8ff60",
+          "new": "0xfffffff005cd3a1c",
+          "mapped": "0xfffffff005cd7ff0",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 206,
+          "offset": "0x680",
+          "old": "0xfffffff005d9237c",
+          "new": "0xfffffff005cd8718",
+          "mapped": "0xfffffff005cda824",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 207,
+          "offset": "0x688",
+          "old": "0xfffffff005d92380",
+          "new": "0xfffffff005cd982c",
+          "mapped": "0xfffffff005cda828",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 208,
+          "offset": "0x690",
+          "old": "0xfffffff005d92384",
+          "new": "0xfffffff005cd95d0",
+          "mapped": "0xfffffff005cda82c",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 209,
+          "offset": "0x698",
+          "old": "0xfffffff005d9238c",
+          "new": "0xfffffff005cd7ff0",
+          "mapped": "0xfffffff005cda834",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 210,
+          "offset": "0x6a0",
+          "old": "0xfffffff005d92390",
+          "new": "0xfffffff005cda824",
+          "mapped": "0xfffffff005cda838",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 211,
+          "offset": "0x6a8",
+          "old": "0xfffffff005d92398",
+          "new": "0xfffffff005cda828",
+          "mapped": "0xfffffff005cda840",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 212,
+          "offset": "0x6b0",
+          "old": "0xfffffff005d923a0",
+          "new": "0xfffffff005cda82c",
+          "mapped": "0xfffffff005cda848",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 213,
+          "offset": "0x6b8",
+          "old": "0xfffffff005d8bf7c",
+          "new": "0xfffffff005cda834",
+          "mapped": "0xfffffff005cd321c",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 214,
+          "offset": "0x6c0",
+          "old": "0xfffffff005d923a8",
+          "new": "0xfffffff005cda838",
+          "mapped": "0xfffffff005cda850",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 215,
+          "offset": "0x6c8",
+          "old": "0xfffffff005d8f308",
+          "new": "0xfffffff005cda840",
+          "mapped": "0xfffffff005cd72e0",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 216,
+          "offset": "0x6d0",
+          "old": "0xfffffff005d8cfe4",
+          "new": "0xfffffff005cda848",
+          "mapped": "0xfffffff005cd4620",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 217,
+          "offset": "0x6d8",
+          "old": "0xfffffff005d8ef70",
+          "new": "0xfffffff005cd321c",
+          "mapped": "0xfffffff005cd6f48",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 218,
+          "offset": "0x6e0",
+          "old": "0xfffffff005d8d7f8",
+          "new": "0xfffffff005cda850",
+          "mapped": "0xfffffff005cd4e34",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 219,
+          "offset": "0x6e8",
+          "old": "0xfffffff005d8db88",
+          "new": "0xfffffff005cd72e0",
+          "mapped": "0xfffffff005cd51c4",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 220,
+          "offset": "0x6f0",
+          "old": "0xfffffff007701010",
+          "new": "0xfffffff005cd4620",
+          "mapped": "0xfffffff00778df94",
+          "old_names": [
+            "___cxa_pure_virtual"
+          ],
+          "new_names": []
+        },
+        {
+          "slot": 221,
+          "offset": "0x6f8",
+          "old": "0xfffffff007701010",
+          "new": "0xfffffff005cd6f48",
+          "mapped": "0xfffffff00778df94",
+          "old_names": [
+            "___cxa_pure_virtual"
+          ],
+          "new_names": []
+        },
+        {
+          "slot": 222,
+          "offset": "0x700",
+          "old": "0xfffffff005d91364",
+          "new": "0xfffffff005cd4e34",
+          "mapped": "0xfffffff005cd96a8",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 223,
+          "offset": "0x708",
+          "old": "0xfffffff005d8becc",
+          "new": "0xfffffff005cd51c4",
+          "mapped": "0xfffffff005cd316c",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 224,
+          "offset": "0x710",
+          "old": "0xfffffff005d8bf34",
+          "new": "0xfffffff005cd5da0",
+          "mapped": "0xfffffff005cd31d4",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 225,
+          "offset": "0x718",
+          "old": "0xfffffff005d923b0",
+          "new": "0xfffffff00778df94",
+          "mapped": "0xfffffff005cda858",
+          "old_names": [],
+          "new_names": [
+            "___cxa_pure_virtual"
+          ]
+        },
+        {
+          "slot": 226,
+          "offset": "0x720",
+          "old": "0xfffffff005d92168",
+          "new": "0xfffffff00778df94",
+          "mapped": "0xfffffff005cda610",
+          "old_names": [],
+          "new_names": [
+            "___cxa_pure_virtual"
+          ]
+        },
+        {
+          "slot": 227,
+          "offset": "0x728",
+          "old": "0xfffffff005d92244",
+          "new": "0xfffffff005cd96a8",
+          "mapped": "0xfffffff005cda6ec",
+          "old_names": [],
+          "new_names": []
+        }
+      ],
+      "edits": [
+        [
+          "equal",
+          0,
+          168,
+          0,
+          168
+        ],
+        [
+          "replace",
+          168,
+          169,
+          168,
+          169
+        ],
+        [
+          "equal",
+          169,
+          179,
+          169,
+          179
+        ],
+        [
+          "insert",
+          179,
+          179,
+          179,
+          180
+        ],
+        [
+          "equal",
+          179,
+          187,
+          180,
+          188
+        ],
+        [
+          "insert",
+          187,
+          187,
+          188,
+          189
+        ],
+        [
+          "equal",
+          187,
+          191,
+          189,
+          193
+        ],
+        [
+          "insert",
+          191,
+          191,
+          193,
+          194
+        ],
+        [
+          "equal",
+          191,
+          196,
+          194,
+          199
+        ],
+        [
+          "replace",
+          196,
+          197,
+          199,
+          200
+        ],
+        [
+          "equal",
+          197,
+          201,
+          200,
+          204
+        ],
+        [
+          "delete",
+          201,
+          202,
+          204,
+          204
+        ],
+        [
+          "equal",
+          202,
+          203,
+          204,
+          205
+        ],
+        [
+          "insert",
+          203,
+          203,
+          205,
+          206
+        ],
+        [
+          "equal",
+          203,
+          205,
+          206,
+          208
+        ],
+        [
+          "insert",
+          205,
+          205,
+          208,
+          209
+        ],
+        [
+          "equal",
+          205,
+          220,
+          209,
+          224
+        ],
+        [
+          "insert",
+          220,
+          220,
+          224,
+          225
+        ],
+        [
+          "equal",
+          220,
+          228,
+          225,
+          233
+        ]
+      ],
+      "slot_correspondence": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10,
+        "11": 11,
+        "12": 12,
+        "13": 13,
+        "14": 14,
+        "15": 15,
+        "16": 16,
+        "17": 17,
+        "18": 18,
+        "19": 19,
+        "20": 20,
+        "21": 21,
+        "22": 22,
+        "23": 23,
+        "24": 24,
+        "25": 25,
+        "26": 26,
+        "27": 27,
+        "28": 28,
+        "29": 29,
+        "30": 30,
+        "31": 31,
+        "32": 32,
+        "33": 33,
+        "34": 34,
+        "35": 35,
+        "36": 36,
+        "37": 37,
+        "38": 38,
+        "39": 39,
+        "40": 40,
+        "41": 41,
+        "42": 42,
+        "43": 43,
+        "44": 44,
+        "45": 45,
+        "46": 46,
+        "47": 47,
+        "48": 48,
+        "49": 49,
+        "50": 50,
+        "51": 51,
+        "52": 52,
+        "53": 53,
+        "54": 54,
+        "55": 55,
+        "56": 56,
+        "57": 57,
+        "58": 58,
+        "59": 59,
+        "60": 60,
+        "61": 61,
+        "62": 62,
+        "63": 63,
+        "64": 64,
+        "65": 65,
+        "66": 66,
+        "67": 67,
+        "68": 68,
+        "69": 69,
+        "70": 70,
+        "71": 71,
+        "72": 72,
+        "73": 73,
+        "74": 74,
+        "75": 75,
+        "76": 76,
+        "77": 77,
+        "78": 78,
+        "79": 79,
+        "80": 80,
+        "81": 81,
+        "82": 82,
+        "83": 83,
+        "84": 84,
+        "85": 85,
+        "86": 86,
+        "87": 87,
+        "88": 88,
+        "89": 89,
+        "90": 90,
+        "91": 91,
+        "92": 92,
+        "93": 93,
+        "94": 94,
+        "95": 95,
+        "96": 96,
+        "97": 97,
+        "98": 98,
+        "99": 99,
+        "100": 100,
+        "101": 101,
+        "102": 102,
+        "103": 103,
+        "104": 104,
+        "105": 105,
+        "106": 106,
+        "107": 107,
+        "108": 108,
+        "109": 109,
+        "110": 110,
+        "111": 111,
+        "112": 112,
+        "113": 113,
+        "114": 114,
+        "115": 115,
+        "116": 116,
+        "117": 117,
+        "118": 118,
+        "119": 119,
+        "120": 120,
+        "121": 121,
+        "122": 122,
+        "123": 123,
+        "124": 124,
+        "125": 125,
+        "126": 126,
+        "127": 127,
+        "128": 128,
+        "129": 129,
+        "130": 130,
+        "131": 131,
+        "132": 132,
+        "133": 133,
+        "134": 134,
+        "135": 135,
+        "136": 136,
+        "137": 137,
+        "138": 138,
+        "139": 139,
+        "140": 140,
+        "141": 141,
+        "142": 142,
+        "143": 143,
+        "144": 144,
+        "145": 145,
+        "146": 146,
+        "147": 147,
+        "148": 148,
+        "149": 149,
+        "150": 150,
+        "151": 151,
+        "152": 152,
+        "153": 153,
+        "154": 154,
+        "155": 155,
+        "156": 156,
+        "157": 157,
+        "158": 158,
+        "159": 159,
+        "160": 160,
+        "161": 161,
+        "162": 162,
+        "163": 163,
+        "164": 164,
+        "165": 165,
+        "166": 166,
+        "167": 167,
+        "168": 168,
+        "169": 169,
+        "170": 170,
+        "171": 171,
+        "172": 172,
+        "173": 173,
+        "174": 174,
+        "175": 175,
+        "176": 176,
+        "177": 177,
+        "178": 178,
+        "179": 180,
+        "180": 181,
+        "181": 182,
+        "182": 183,
+        "183": 184,
+        "184": 185,
+        "185": 186,
+        "186": 187,
+        "187": 189,
+        "188": 190,
+        "189": 191,
+        "190": 192,
+        "191": 194,
+        "192": 195,
+        "193": 196,
+        "194": 197,
+        "195": 198,
+        "196": 199,
+        "197": 200,
+        "198": 201,
+        "199": 202,
+        "200": 203,
+        "202": 204,
+        "203": 206,
+        "204": 207,
+        "205": 209,
+        "206": 210,
+        "207": 211,
+        "208": 212,
+        "209": 213,
+        "210": 214,
+        "211": 215,
+        "212": 216,
+        "213": 217,
+        "214": 218,
+        "215": 219,
+        "216": 220,
+        "217": 221,
+        "218": 222,
+        "219": 223,
+        "220": 225,
+        "221": 226,
+        "222": 227,
+        "223": 228,
+        "224": 229,
+        "225": 230,
+        "226": 231,
+        "227": 232
+      },
+      "paired_by_index": true
+    },
+    {
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "old": "0xfffffff006de44a0",
+      "new": "0xfffffff006dc8fa8",
+      "old_slots": 205,
+      "new_slots": 206,
+      "same_slot_matches": 200,
+      "next_score": 188,
+      "mismatches": [
+        {
+          "slot": 172,
+          "offset": "0x570",
+          "old": "0xfffffff005d94a24",
+          "new": "0xfffffff005cdd61c",
+          "mapped": null,
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 188,
+          "offset": "0x5f0",
+          "old": "0xfffffff005d955fc",
+          "new": "0xfffffff005ce062c",
+          "mapped": "0xfffffff005cde20c",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 189,
+          "offset": "0x5f8",
+          "old": "0xfffffff005d9734c",
+          "new": "0xfffffff005cdc9a4",
+          "mapped": "0xfffffff005ce062c",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 190,
+          "offset": "0x600",
+          "old": "0xfffffff005d93f28",
+          "new": "0xfffffff005cdcac8",
+          "mapped": "0xfffffff005cdc9a4",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 191,
+          "offset": "0x608",
+          "old": "0xfffffff005d9405c",
+          "new": "0xfffffff005ce1914",
+          "mapped": "0xfffffff005cdcac8",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 192,
+          "offset": "0x610",
+          "old": "0xfffffff005d97e98",
+          "new": "0xfffffff005cde4e4",
+          "mapped": "0xfffffff005ce1914",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 193,
+          "offset": "0x618",
+          "old": "0xfffffff005d958a0",
+          "new": "0xfffffff005cdbf58",
+          "mapped": "0xfffffff005cde4e4",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 194,
+          "offset": "0x620",
+          "old": "0xfffffff005d9392c",
+          "new": "0xfffffff005cdbf48",
+          "mapped": "0xfffffff005cdbf58",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 195,
+          "offset": "0x628",
+          "old": "0xfffffff005d9391c",
+          "new": "0xfffffff005ce1918",
+          "mapped": "0xfffffff005cdbf48",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 196,
+          "offset": "0x630",
+          "old": "0xfffffff005d97e9c",
+          "new": "0xfffffff005ce191c",
+          "mapped": "0xfffffff005ce1918",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 197,
+          "offset": "0x638",
+          "old": "0xfffffff005d97ea0",
+          "new": "0xfffffff005ce1920",
+          "mapped": "0xfffffff005ce191c",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 198,
+          "offset": "0x640",
+          "old": "0xfffffff005d97ea4",
+          "new": "0xfffffff005cde53c",
+          "mapped": "0xfffffff005ce1920",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 199,
+          "offset": "0x648",
+          "old": "0xfffffff005d958f8",
+          "new": "0xfffffff005cdfb84",
+          "mapped": "0xfffffff005cde53c",
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 200,
+          "offset": "0x650",
+          "old": "0xfffffff005d969d8",
+          "new": "0xfffffff005cde20c",
+          "mapped": null,
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 202,
+          "offset": "0x660",
+          "old": "0xfffffff005d97eac",
+          "new": "0xfffffff005ce13d8",
+          "mapped": null,
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 203,
+          "offset": "0x668",
+          "old": "0xfffffff005d97eb4",
+          "new": "0xfffffff005ce1928",
+          "mapped": null,
+          "old_names": [],
+          "new_names": []
+        },
+        {
+          "slot": 204,
+          "offset": "0x670",
+          "old": "0xfffffff005d943f4",
+          "new": "0xfffffff005ce193c",
+          "mapped": "0xfffffff005cdce4c",
+          "old_names": [],
+          "new_names": []
+        }
+      ],
+      "edits": [
+        [
+          "equal",
+          0,
+          172,
+          0,
+          172
+        ],
+        [
+          "replace",
+          172,
+          173,
+          172,
+          173
+        ],
+        [
+          "equal",
+          173,
+          188,
+          173,
+          188
+        ],
+        [
+          "delete",
+          188,
+          189,
+          188,
+          188
+        ],
+        [
+          "equal",
+          189,
+          200,
+          188,
+          199
+        ],
+        [
+          "replace",
+          200,
+          201,
+          199,
+          201
+        ],
+        [
+          "equal",
+          201,
+          202,
+          201,
+          202
+        ],
+        [
+          "replace",
+          202,
+          204,
+          202,
+          205
+        ],
+        [
+          "equal",
+          204,
+          205,
+          205,
+          206
+        ]
+      ],
+      "slot_correspondence": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10,
+        "11": 11,
+        "12": 12,
+        "13": 13,
+        "14": 14,
+        "15": 15,
+        "16": 16,
+        "17": 17,
+        "18": 18,
+        "19": 19,
+        "20": 20,
+        "21": 21,
+        "22": 22,
+        "23": 23,
+        "24": 24,
+        "25": 25,
+        "26": 26,
+        "27": 27,
+        "28": 28,
+        "29": 29,
+        "30": 30,
+        "31": 31,
+        "32": 32,
+        "33": 33,
+        "34": 34,
+        "35": 35,
+        "36": 36,
+        "37": 37,
+        "38": 38,
+        "39": 39,
+        "40": 40,
+        "41": 41,
+        "42": 42,
+        "43": 43,
+        "44": 44,
+        "45": 45,
+        "46": 46,
+        "47": 47,
+        "48": 48,
+        "49": 49,
+        "50": 50,
+        "51": 51,
+        "52": 52,
+        "53": 53,
+        "54": 54,
+        "55": 55,
+        "56": 56,
+        "57": 57,
+        "58": 58,
+        "59": 59,
+        "60": 60,
+        "61": 61,
+        "62": 62,
+        "63": 63,
+        "64": 64,
+        "65": 65,
+        "66": 66,
+        "67": 67,
+        "68": 68,
+        "69": 69,
+        "70": 70,
+        "71": 71,
+        "72": 72,
+        "73": 73,
+        "74": 74,
+        "75": 75,
+        "76": 76,
+        "77": 77,
+        "78": 78,
+        "79": 79,
+        "80": 80,
+        "81": 81,
+        "82": 82,
+        "83": 83,
+        "84": 84,
+        "85": 85,
+        "86": 86,
+        "87": 87,
+        "88": 88,
+        "89": 89,
+        "90": 90,
+        "91": 91,
+        "92": 92,
+        "93": 93,
+        "94": 94,
+        "95": 95,
+        "96": 96,
+        "97": 97,
+        "98": 98,
+        "99": 99,
+        "100": 100,
+        "101": 101,
+        "102": 102,
+        "103": 103,
+        "104": 104,
+        "105": 105,
+        "106": 106,
+        "107": 107,
+        "108": 108,
+        "109": 109,
+        "110": 110,
+        "111": 111,
+        "112": 112,
+        "113": 113,
+        "114": 114,
+        "115": 115,
+        "116": 116,
+        "117": 117,
+        "118": 118,
+        "119": 119,
+        "120": 120,
+        "121": 121,
+        "122": 122,
+        "123": 123,
+        "124": 124,
+        "125": 125,
+        "126": 126,
+        "127": 127,
+        "128": 128,
+        "129": 129,
+        "130": 130,
+        "131": 131,
+        "132": 132,
+        "133": 133,
+        "134": 134,
+        "135": 135,
+        "136": 136,
+        "137": 137,
+        "138": 138,
+        "139": 139,
+        "140": 140,
+        "141": 141,
+        "142": 142,
+        "143": 143,
+        "144": 144,
+        "145": 145,
+        "146": 146,
+        "147": 147,
+        "148": 148,
+        "149": 149,
+        "150": 150,
+        "151": 151,
+        "152": 152,
+        "153": 153,
+        "154": 154,
+        "155": 155,
+        "156": 156,
+        "157": 157,
+        "158": 158,
+        "159": 159,
+        "160": 160,
+        "161": 161,
+        "162": 162,
+        "163": 163,
+        "164": 164,
+        "165": 165,
+        "166": 166,
+        "167": 167,
+        "168": 168,
+        "169": 169,
+        "170": 170,
+        "171": 171,
+        "172": 172,
+        "173": 173,
+        "174": 174,
+        "175": 175,
+        "176": 176,
+        "177": 177,
+        "178": 178,
+        "179": 179,
+        "180": 180,
+        "181": 181,
+        "182": 182,
+        "183": 183,
+        "184": 184,
+        "185": 185,
+        "186": 186,
+        "187": 187,
+        "189": 188,
+        "190": 189,
+        "191": 190,
+        "192": 191,
+        "193": 192,
+        "194": 193,
+        "195": 194,
+        "196": 195,
+        "197": 196,
+        "198": 197,
+        "199": 198,
+        "201": 201,
+        "204": 205
+      },
+      "paired_by_index": true
+    },
+    {
+      "owner": "com.apple.driver.AppleHIDTransport",
+      "old": "0xfffffff006de7d00",
+      "new": "0xfffffff006dcc900",
+      "old_slots": 208,
+      "new_slots": 208,
+      "same_slot_matches": 207,
+      "next_score": 189,
+      "mismatches": [
+        {
+          "slot": 189,
+          "offset": "0x5f8",
+          "old": "0xfffffff005da393c",
+          "new": "0xfffffff005cee408",
+          "mapped": null,
+          "old_names": [],
+          "new_names": []
+        }
+      ],
+      "edits": [
+        [
+          "equal",
+          0,
+          189,
+          0,
+          189
+        ],
+        [
+          "replace",
+          189,
+          190,
+          189,
+          190
+        ],
+        [
+          "equal",
+          190,
+          208,
+          190,
+          208
+        ]
+      ],
+      "slot_correspondence": {
+        "0": 0,
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 4,
+        "5": 5,
+        "6": 6,
+        "7": 7,
+        "8": 8,
+        "9": 9,
+        "10": 10,
+        "11": 11,
+        "12": 12,
+        "13": 13,
+        "14": 14,
+        "15": 15,
+        "16": 16,
+        "17": 17,
+        "18": 18,
+        "19": 19,
+        "20": 20,
+        "21": 21,
+        "22": 22,
+        "23": 23,
+        "24": 24,
+        "25": 25,
+        "26": 26,
+        "27": 27,
+        "28": 28,
+        "29": 29,
+        "30": 30,
+        "31": 31,
+        "32": 32,
+        "33": 33,
+        "34": 34,
+        "35": 35,
+        "36": 36,
+        "37": 37,
+        "38": 38,
+        "39": 39,
+        "40": 40,
+        "41": 41,
+        "42": 42,
+        "43": 43,
+        "44": 44,
+        "45": 45,
+        "46": 46,
+        "47": 47,
+        "48": 48,
+        "49": 49,
+        "50": 50,
+        "51": 51,
+        "52": 52,
+        "53": 53,
+        "54": 54,
+        "55": 55,
+        "56": 56,
+        "57": 57,
+        "58": 58,
+        "59": 59,
+        "60": 60,
+        "61": 61,
+        "62": 62,
+        "63": 63,
+        "64": 64,
+        "65": 65,
+        "66": 66,
+        "67": 67,
+        "68": 68,
+        "69": 69,
+        "70": 70,
+        "71": 71,
+        "72": 72,
+        "73": 73,
+        "74": 74,
+        "75": 75,
+        "76": 76,
+        "77": 77,
+        "78": 78,
+        "79": 79,
+        "80": 80,
+        "81": 81,
+        "82": 82,
+        "83": 83,
+        "84": 84,
+        "85": 85,
+        "86": 86,
+        "87": 87,
+        "88": 88,
+        "89": 89,
+        "90": 90,
+        "91": 91,
+        "92": 92,
+        "93": 93,
+        "94": 94,
+        "95": 95,
+        "96": 96,
+        "97": 97,
+        "98": 98,
+        "99": 99,
+        "100": 100,
+        "101": 101,
+        "102": 102,
+        "103": 103,
+        "104": 104,
+        "105": 105,
+        "106": 106,
+        "107": 107,
+        "108": 108,
+        "109": 109,
+        "110": 110,
+        "111": 111,
+        "112": 112,
+        "113": 113,
+        "114": 114,
+        "115": 115,
+        "116": 116,
+        "117": 117,
+        "118": 118,
+        "119": 119,
+        "120": 120,
+        "121": 121,
+        "122": 122,
+        "123": 123,
+        "124": 124,
+        "125": 125,
+        "126": 126,
+        "127": 127,
+        "128": 128,
+        "129": 129,
+        "130": 130,
+        "131": 131,
+        "132": 132,
+        "133": 133,
+        "134": 134,
+        "135": 135,
+        "136": 136,
+        "137": 137,
+        "138": 138,
+        "139": 139,
+        "140": 140,
+        "141": 141,
+        "142": 142,
+        "143": 143,
+        "144": 144,
+        "145": 145,
+        "146": 146,
+        "147": 147,
+        "148": 148,
+        "149": 149,
+        "150": 150,
+        "151": 151,
+        "152": 152,
+        "153": 153,
+        "154": 154,
+        "155": 155,
+        "156": 156,
+        "157": 157,
+        "158": 158,
+        "159": 159,
+        "160": 160,
+        "161": 161,
+        "162": 162,
+        "163": 163,
+        "164": 164,
+        "165": 165,
+        "166": 166,
+        "167": 167,
+        "168": 168,
+        "169": 169,
+        "170": 170,
+        "171": 171,
+        "172": 172,
+        "173": 173,
+        "174": 174,
+        "175": 175,
+        "176": 176,
+        "177": 177,
+        "178": 178,
+        "179": 179,
+        "180": 180,
+        "181": 181,
+        "182": 182,
+        "183": 183,
+        "184": 184,
+        "185": 185,
+        "186": 186,
+        "187": 187,
+        "188": 188,
+        "189": 189,
+        "190": 190,
+        "191": 191,
+        "192": 192,
+        "193": 193,
+        "194": 194,
+        "195": 195,
+        "196": 196,
+        "197": 197,
+        "198": 198,
+        "199": 199,
+        "200": 200,
+        "201": 201,
+        "202": 202,
+        "203": 203,
+        "204": 204,
+        "205": 205,
+        "206": 206,
+        "207": 207
+      },
+      "paired_by_index": true
+    }
+  ],
+  "instruction_fields": [
+    {
+      "address": "0xfffffff006c960ac",
+      "expected_sha256": "4070c83c65e7b0f5aa0fc0454e1726204e4318710c32ef51339c8d846963d469",
+      "reason": "Native AppleHIDTransportDeviceUART virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 209
+    },
+    {
+      "address": "0xfffffff006c96648",
+      "expected_sha256": "a1ebfb4c0d7146305004b99465d27fe73f9a543f08f6615185c7288670ec710e",
+      "reason": "Native AppleHIDTransportDeviceUART virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 223
+    },
+    {
+      "address": "0xfffffff006c96c14",
+      "expected_sha256": "d463ef1d5c59854eff8ea76f8c2ecc69e54fdf38f1c4cd5a9760a6f7007db395",
+      "reason": "Native AppleHIDTransportInterface virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 194
+    },
+    {
+      "address": "0xfffffff006c96d90",
+      "expected_sha256": "d463ef1d5c59854eff8ea76f8c2ecc69e54fdf38f1c4cd5a9760a6f7007db395",
+      "reason": "Native AppleHIDTransportInterface virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 194
+    },
+    {
+      "address": "0xfffffff006c97678",
+      "expected_sha256": "f7af0da6673d7b3e151708f202172eaf54bdc6ac94925b9f76daccb61f1e8527",
+      "reason": "Native AppleHIDTransportDeviceUART virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 224
+    },
+    {
+      "address": "0xfffffff006c979a4",
+      "expected_sha256": "a0acf20039df99772de63a491da587355839e7b2784cf7edd3b3a7ffb026c574",
+      "reason": "Native AppleHIDTransportDeviceUART virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 227
+    },
+    {
+      "address": "0xfffffff006c979b8",
+      "expected_sha256": "a0acf20039df99772de63a491da587355839e7b2784cf7edd3b3a7ffb026c574",
+      "reason": "Native AppleHIDTransportDeviceUART virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 227
+    },
+    {
+      "address": "0xfffffff006c97fd8",
+      "expected_sha256": "d463ef1d5c59854eff8ea76f8c2ecc69e54fdf38f1c4cd5a9760a6f7007db395",
+      "reason": "Native AppleHIDTransportInterface virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 194
+    },
+    {
+      "address": "0xfffffff006c981a0",
+      "expected_sha256": "b40a4d0d8e9c54b224bf25de28d79fd079dd88ed9d5e5d849f173e6ca418b22b",
+      "reason": "Native AppleHIDTransportDeviceUART virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 208
+    },
+    {
+      "address": "0xfffffff006c98780",
+      "expected_sha256": "72944e49fddbdd611316283030fdadcaf362c3ef10d6d60ef5a227786d61797e",
+      "reason": "Native AppleHIDTransportDeviceUART virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 226
+    },
+    {
+      "address": "0xfffffff006c9b940",
+      "expected_sha256": "219c61edd035f4b1102f67698cf91d2c88b01907641963aee98e42ccf12c44a1",
+      "reason": "Native AppleHIDTransportDeviceUART virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 205
+    },
+    {
+      "address": "0xfffffff006c9bbac",
+      "expected_sha256": "250fae45ea557a608489249872b92ba2260a66e1257d14e25cae77f902ce8888",
+      "reason": "Native AppleHIDTransportDeviceUART virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 190
+    },
+    {
+      "address": "0xfffffff006c9bbc0",
+      "expected_sha256": "250fae45ea557a608489249872b92ba2260a66e1257d14e25cae77f902ce8888",
+      "reason": "Native AppleHIDTransportDeviceUART virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 190
+    },
+    {
+      "address": "0xfffffff006c9bd6c",
+      "expected_sha256": "b40eb41570ec5dfaec294d3a00877c1d345e75df73d4f36962af23fd995b561e",
+      "reason": "Native AppleHIDTransportDeviceUART virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 206
+    },
+    {
+      "address": "0xfffffff006c9c454",
+      "expected_sha256": "c71fc32a6c7876dc8433b924c0bb80acf746bff6e68d1b9b3d97d0fef5e29a9c",
+      "reason": "Native AppleHIDTransportDeviceUART virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 228
+    },
+    {
+      "address": "0xfffffff006c9c468",
+      "expected_sha256": "c71fc32a6c7876dc8433b924c0bb80acf746bff6e68d1b9b3d97d0fef5e29a9c",
+      "reason": "Native AppleHIDTransportDeviceUART virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 228
+    },
+    {
+      "address": "0xfffffff006c9cf90",
+      "expected_sha256": "9139f0580c031dd9323f7914319978b85963e9585fc3d45cbe20cf4dea52b54d",
+      "reason": "Native AppleHIDTransportDeviceUART virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 222
+    },
+    {
+      "address": "0xfffffff006c9d344",
+      "expected_sha256": "b9e332a10d881f79b94c281068fce20268f5558fdd4742eeb5f87385c0fbf9a6",
+      "reason": "Native AppleHIDTransportDeviceUART virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 225
+    },
+    {
+      "address": "0xfffffff006c9fa90",
+      "expected_sha256": "fec26b03805d60a9cb5953c619e769910dc64c2354e1275606a2eb57535dfb98",
+      "reason": "Native AppleHIDTransportDeviceUART virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 194
+    },
+    {
+      "address": "0xfffffff006c9fab8",
+      "expected_sha256": "197dfe26a1402c9ead898b12ce418a4eebbc433cd5342b7bc4273d6d76030570",
+      "reason": "Native AppleHIDTransportDeviceUART virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 195
+    },
+    {
+      "address": "0xfffffff006c9fb4c",
+      "expected_sha256": "fec26b03805d60a9cb5953c619e769910dc64c2354e1275606a2eb57535dfb98",
+      "reason": "Native AppleHIDTransportDeviceUART virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 194
+    },
+    {
+      "address": "0xfffffff006c9fb74",
+      "expected_sha256": "197dfe26a1402c9ead898b12ce418a4eebbc433cd5342b7bc4273d6d76030570",
+      "reason": "Native AppleHIDTransportDeviceUART virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 195
+    },
+    {
+      "address": "0xfffffff006ca06ac",
+      "expected_sha256": "3836c6229bf15902b8f5efe55f7d1bbcbef4bec1f8035aa0127a90b7990a6857",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 45
+    },
+    {
+      "address": "0xfffffff006ca06c4",
+      "expected_sha256": "ce4117fc228ca7a07b84ba516bddcf2fc9aece931ad167ab65281a21ffbb99d9",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3f8000",
+      "shift": 15,
+      "value": 37
+    },
+    {
+      "address": "0xfffffff006ca06c8",
+      "expected_sha256": "4ce372dccca94a1057a3b4f5cb6b8f63bae5b348e571bde72fd30c533f93e90b",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff006ca06cc",
+      "expected_sha256": "eee6b66a2aa8dfd93efbf927c79878bdbd2203ecca71a10269fe291f1590a9f1",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 184
+    },
+    {
+      "address": "0xfffffff006ca06d8",
+      "expected_sha256": "6c972e22e0595ea55f73c1ec2e7d8f1bfcb5b1425f673988799a45f91996fe49",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3f8000",
+      "shift": 15,
+      "value": 41
+    },
+    {
+      "address": "0xfffffff006ca07b8",
+      "expected_sha256": "1b7414e2400a1bd7413d9874ea97828b7f093ddc2dc3254dde3ef052ffcd6602",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 42
+    },
+    {
+      "address": "0xfffffff006ca07ec",
+      "expected_sha256": "a863b4e3848ed02a1e412576c51514537b27b5a52ff069960146458dc665d662",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 39
+    },
+    {
+      "address": "0xfffffff006ca07f4",
+      "expected_sha256": "b086a3c99dc29f3eb146d4db802d4156eafae0b69c1440c1d444f0f4e4e5f64b",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 80
+    },
+    {
+      "address": "0xfffffff006ca0814",
+      "expected_sha256": "803b83b5074091bef6d7e7dc969e8b2a9c9e0655b29ab157dc9171e0f273d84e",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 38
+    },
+    {
+      "address": "0xfffffff006ca0850",
+      "expected_sha256": "12cd8e08da142397b8142f8c255e348e1c8f91c71bfabf9ec91def9579c0caa0",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 37
+    },
+    {
+      "address": "0xfffffff006ca09a0",
+      "expected_sha256": "73592492facfc775b224137ce8e10112cf76558a2ef80628c44fd41eb7c32791",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 38
+    },
+    {
+      "address": "0xfffffff006ca09b0",
+      "expected_sha256": "bbe3d12cd9b0aea443c6f3bb91cf0112339aab94749786245498845eefc7178c",
+      "reason": "Native AppleHIDTransportDeviceUART virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 222
+    },
+    {
+      "address": "0xfffffff006ca0bac",
+      "expected_sha256": "73592492facfc775b224137ce8e10112cf76558a2ef80628c44fd41eb7c32791",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 38
+    },
+    {
+      "address": "0xfffffff006ca0bbc",
+      "expected_sha256": "a992cd9abf99ab378eef8485c70a5cf6160f8bbf4b53ddb2020d82608b9b2b58",
+      "reason": "Native AppleHIDTransportDeviceUART virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 225
+    },
+    {
+      "address": "0xfffffff006ca0d60",
+      "expected_sha256": "6be7b851f52d180716e719d6f1e8c07a53a5c9c67b452b845895cc2c4737c000",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 37
+    },
+    {
+      "address": "0xfffffff006ca0d6c",
+      "expected_sha256": "1359659ec8461c8ea49355ad3f6f3dded3f96f497f5edb0e37d311a186e85546",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 37
+    },
+    {
+      "address": "0xfffffff006ca0d70",
+      "expected_sha256": "01035579ade320b099132615c93869dc286bbc85ca15dd20f94075db4e77347d",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 38
+    },
+    {
+      "address": "0xfffffff006ca0d84",
+      "expected_sha256": "a13c2115a3ba45862d6ca2a9abfa3c8feaa5864357cfd778bfed2b68d2847303",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 38
+    },
+    {
+      "address": "0xfffffff006ca0db4",
+      "expected_sha256": "6be7b851f52d180716e719d6f1e8c07a53a5c9c67b452b845895cc2c4737c000",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 37
+    },
+    {
+      "address": "0xfffffff006ca0dc0",
+      "expected_sha256": "b28caae29a598be0c9bdba503b3728d51853436739358e21cc3847f451d2aa08",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 37
+    },
+    {
+      "address": "0xfffffff006ca0f50",
+      "expected_sha256": "896e6b53ab35940b4916b30be78cb8a918b9a66a89e0c4ba041ee7e9ea971625",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff006ca0f6c",
+      "expected_sha256": "e82274b2f6a33219e2f5999e033994a198546d9b4eb1900716353db94b8a21cd",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff006ca0f70",
+      "expected_sha256": "03a4b65a93295b24d2d0d00c5a7070edb1e42b4659c246bd83ea936fa06ba5c4",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 38
+    },
+    {
+      "address": "0xfffffff006ca0f78",
+      "expected_sha256": "73592492facfc775b224137ce8e10112cf76558a2ef80628c44fd41eb7c32791",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 38
+    },
+    {
+      "address": "0xfffffff006ca0f80",
+      "expected_sha256": "a0acf20039df99772de63a491da587355839e7b2784cf7edd3b3a7ffb026c574",
+      "reason": "Native AppleHIDTransportDeviceUART virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 227
+    },
+    {
+      "address": "0xfffffff006ca0f90",
+      "expected_sha256": "73592492facfc775b224137ce8e10112cf76558a2ef80628c44fd41eb7c32791",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 38
+    },
+    {
+      "address": "0xfffffff006ca0fac",
+      "expected_sha256": "bb9b7409bdba9671bbd4c5774256db611b277d4c7429af5058844e7683f87040",
+      "reason": "Native AppleHIDTransportBootloaderSTMB virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 234
+    },
+    {
+      "address": "0xfffffff006ca0fc0",
+      "expected_sha256": "0ee04514ac306091ad6fb67840461c5cf193ed4f7d6ac7cd6e5b7d389e908508",
+      "reason": "Native AppleHIDTransportBootloaderSTMB virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 238
+    },
+    {
+      "address": "0xfffffff006ca121c",
+      "expected_sha256": "c8259b65fcd15c33192b21226149b31ba363fa529053df1dee1a72a5e7e4cf5d",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff006ca1224",
+      "expected_sha256": "689ebfc3c5d45debe14f67695320d30deab7f820ffdf4aafa661a2abc59da7b5",
+      "reason": "Native AppleHIDTransportBootloaderSTMB virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 233
+    },
+    {
+      "address": "0xfffffff006ca123c",
+      "expected_sha256": "08abf665e5d519463a6c2079f78f478484c8fcf8cf03446038be20680ff10f6f",
+      "reason": "Native AppleHIDTransportBootloaderSTMB virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 236
+    },
+    {
+      "address": "0xfffffff006ca1250",
+      "expected_sha256": "01035579ade320b099132615c93869dc286bbc85ca15dd20f94075db4e77347d",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 38
+    },
+    {
+      "address": "0xfffffff006ca13b0",
+      "expected_sha256": "4e2f83d8acb5be7f85f49f8eae234b5b95225386f028f277ea44b13b05d76429",
+      "reason": "Native AppleHIDTransportBootloaderSTMB virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 182
+    },
+    {
+      "address": "0xfffffff006ca14ec",
+      "expected_sha256": "b28caae29a598be0c9bdba503b3728d51853436739358e21cc3847f451d2aa08",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 37
+    },
+    {
+      "address": "0xfffffff006ca1718",
+      "expected_sha256": "4e2f83d8acb5be7f85f49f8eae234b5b95225386f028f277ea44b13b05d76429",
+      "reason": "Native AppleHIDTransportBootloaderSTMB virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 182
+    },
+    {
+      "address": "0xfffffff006ca18ac",
+      "expected_sha256": "6db5dd0525b44dff89432811f8a381eda3430ba6824b67599a6907ce81d221b3",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 78
+    },
+    {
+      "address": "0xfffffff006ca1a50",
+      "expected_sha256": "b5f4cbf8c37189091ab812f97813425ed8501c04d112f191f55edb7ac4ca09f4",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 368
+    },
+    {
+      "address": "0xfffffff006ca1b54",
+      "expected_sha256": "689ebfc3c5d45debe14f67695320d30deab7f820ffdf4aafa661a2abc59da7b5",
+      "reason": "Native AppleHIDTransportBootloaderSTMB virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 233
+    },
+    {
+      "address": "0xfffffff006ca1bec",
+      "expected_sha256": "a72dd0d9fc74946b4bff85eec6427bbb448f8d3517ed58f2eac503e5fa1c05f6",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 37
+    },
+    {
+      "address": "0xfffffff006ca1c30",
+      "expected_sha256": "689ebfc3c5d45debe14f67695320d30deab7f820ffdf4aafa661a2abc59da7b5",
+      "reason": "Native AppleHIDTransportBootloaderSTMB virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 233
+    },
+    {
+      "address": "0xfffffff006ca1c44",
+      "expected_sha256": "a72dd0d9fc74946b4bff85eec6427bbb448f8d3517ed58f2eac503e5fa1c05f6",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 37
+    },
+    {
+      "address": "0xfffffff006ca1db0",
+      "expected_sha256": "689ebfc3c5d45debe14f67695320d30deab7f820ffdf4aafa661a2abc59da7b5",
+      "reason": "Native AppleHIDTransportBootloaderSTMB virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 233
+    },
+    {
+      "address": "0xfffffff006ca22d0",
+      "expected_sha256": "4546c07e4449ba0f1ebaeb1c825b969bcaeda1aa30b4e4e9405d163bbd6494c1",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 312
+    },
+    {
+      "address": "0xfffffff006ca22e0",
+      "expected_sha256": "ae99d285fbdf67d65c8f64d63189b9e596bdb869a1990bd9038dd0aa01adff57",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 316
+    },
+    {
+      "address": "0xfffffff006ca22f8",
+      "expected_sha256": "877ae120eddd03bc6584c06cac26fbce566188dab243ed051e81d80b78bf21e0",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 320
+    },
+    {
+      "address": "0xfffffff006ca2310",
+      "expected_sha256": "af4df67f4d237a4bb68f4ed07757098123e86908b2669634d995c39fd578bbde",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 328
+    },
+    {
+      "address": "0xfffffff006ca2358",
+      "expected_sha256": "7db844c08a2a10e22bba447420e3ef96852b79deda4c1efce8202ed84d037d53",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 45
+    },
+    {
+      "address": "0xfffffff006ca236c",
+      "expected_sha256": "a01f0cd2d62527560d069fbeedad43536d8e041fe4d62c1d66954491e3a9fe97",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 45
+    },
+    {
+      "address": "0xfffffff006ca2384",
+      "expected_sha256": "3836c6229bf15902b8f5efe55f7d1bbcbef4bec1f8035aa0127a90b7990a6857",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 45
+    },
+    {
+      "address": "0xfffffff006ca2490",
+      "expected_sha256": "3e930bf2f3855410e93d754abe0b3101887d0a5946cf514aa0883dcc97d20043",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 336
+    },
+    {
+      "address": "0xfffffff006ca249c",
+      "expected_sha256": "1b7414e2400a1bd7413d9874ea97828b7f093ddc2dc3254dde3ef052ffcd6602",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 42
+    },
+    {
+      "address": "0xfffffff006ca24a4",
+      "expected_sha256": "3ce825b920148abeab40888f711935fba5dffcfd8ab372c96f873e22bc48709d",
+      "reason": "Native AppleHIDTransportBootloaderSTMB virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 231
+    },
+    {
+      "address": "0xfffffff006ca24b4",
+      "expected_sha256": "7997e5819068c857be786a9cf7e9f3f01a2c7071e3b4d9479a5921b26d01627c",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 45
+    },
+    {
+      "address": "0xfffffff006ca2884",
+      "expected_sha256": "01035579ade320b099132615c93869dc286bbc85ca15dd20f94075db4e77347d",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 38
+    },
+    {
+      "address": "0xfffffff006ca28b8",
+      "expected_sha256": "c8259b65fcd15c33192b21226149b31ba363fa529053df1dee1a72a5e7e4cf5d",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 352
+    },
+    {
+      "address": "0xfffffff006ca28c0",
+      "expected_sha256": "689ebfc3c5d45debe14f67695320d30deab7f820ffdf4aafa661a2abc59da7b5",
+      "reason": "Native AppleHIDTransportBootloaderSTMB virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 233
+    },
+    {
+      "address": "0xfffffff006ca29a8",
+      "expected_sha256": "e2249541fb0b45fd508d1244db09df0a7902e5a5398d5f4f43207b2e702fd25f",
+      "reason": "Native AppleHIDTransportBootloaderSTMB virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 235
+    },
+    {
+      "address": "0xfffffff006ca29c4",
+      "expected_sha256": "e2249541fb0b45fd508d1244db09df0a7902e5a5398d5f4f43207b2e702fd25f",
+      "reason": "Native AppleHIDTransportBootloaderSTMB virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 235
+    },
+    {
+      "address": "0xfffffff006ca29ec",
+      "expected_sha256": "245632aa3950b8827ab1f2b0923b27c706424587904ff81a789aa57d0205bcee",
+      "reason": "Native AppleHIDTransportBootloaderSTMB virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 237
+    },
+    {
+      "address": "0xfffffff006ca2a04",
+      "expected_sha256": "01035579ade320b099132615c93869dc286bbc85ca15dd20f94075db4e77347d",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 38
+    },
+    {
+      "address": "0xfffffff006ca2a14",
+      "expected_sha256": "01035579ade320b099132615c93869dc286bbc85ca15dd20f94075db4e77347d",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 38
+    },
+    {
+      "address": "0xfffffff006ca2b84",
+      "expected_sha256": "4e2f83d8acb5be7f85f49f8eae234b5b95225386f028f277ea44b13b05d76429",
+      "reason": "Native AppleHIDTransportBootloaderSTMB virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 182
+    },
+    {
+      "address": "0xfffffff006ca2d80",
+      "expected_sha256": "aea0472046e872a15d22963882ac350500470566d7c5f868eeedc3bc6df04815",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 81
+    },
+    {
+      "address": "0xfffffff006ca2d84",
+      "expected_sha256": "7cfe414a2d74d6f1c201e26e0eb4d86cd1e036b10dca9741a1602d8dcee218ad",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 37
+    },
+    {
+      "address": "0xfffffff006ca2da0",
+      "expected_sha256": "e3106ada0faeee23f0392418aced76038f40155411ad6e20b4420f20b4ed7c1b",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 368
+    },
+    {
+      "address": "0xfffffff006ca2db0",
+      "expected_sha256": "9f37caa9ed454a7a6cb5232387cb2d0b22eabfa2e4ab1c4e2cb573467d94b5af",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 369
+    },
+    {
+      "address": "0xfffffff006ca2dec",
+      "expected_sha256": "b5f4cbf8c37189091ab812f97813425ed8501c04d112f191f55edb7ac4ca09f4",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 368
+    },
+    {
+      "address": "0xfffffff006ca2df0",
+      "expected_sha256": "7a8c7fd8e61be39a3ff4e469615b6e5826d4c2a17e50da44eb17c9b26244acc6",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 369
+    },
+    {
+      "address": "0xfffffff006ca2e20",
+      "expected_sha256": "b5f4cbf8c37189091ab812f97813425ed8501c04d112f191f55edb7ac4ca09f4",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 368
+    },
+    {
+      "address": "0xfffffff006ca2e28",
+      "expected_sha256": "80dc82e47a68cfb44a4ab17de8fdf964111d5ce15195ef22e39769cd9d2eeeac",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 369
+    },
+    {
+      "address": "0xfffffff006ca2fac",
+      "expected_sha256": "689ebfc3c5d45debe14f67695320d30deab7f820ffdf4aafa661a2abc59da7b5",
+      "reason": "Native AppleHIDTransportBootloaderSTMB virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 233
+    },
+    {
+      "address": "0xfffffff006ca2fc0",
+      "expected_sha256": "b5f4cbf8c37189091ab812f97813425ed8501c04d112f191f55edb7ac4ca09f4",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 368
+    },
+    {
+      "address": "0xfffffff006ca2fc8",
+      "expected_sha256": "80dc82e47a68cfb44a4ab17de8fdf964111d5ce15195ef22e39769cd9d2eeeac",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 369
+    },
+    {
+      "address": "0xfffffff006ca3048",
+      "expected_sha256": "b5f4cbf8c37189091ab812f97813425ed8501c04d112f191f55edb7ac4ca09f4",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 368
+    },
+    {
+      "address": "0xfffffff006ca30b4",
+      "expected_sha256": "7cfe414a2d74d6f1c201e26e0eb4d86cd1e036b10dca9741a1602d8dcee218ad",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 37
+    },
+    {
+      "address": "0xfffffff006ca3118",
+      "expected_sha256": "01035579ade320b099132615c93869dc286bbc85ca15dd20f94075db4e77347d",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 38
+    },
+    {
+      "address": "0xfffffff006ca3120",
+      "expected_sha256": "c71fc32a6c7876dc8433b924c0bb80acf746bff6e68d1b9b3d97d0fef5e29a9c",
+      "reason": "Native AppleHIDTransportDeviceUART virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 228
+    },
+    {
+      "address": "0xfffffff006ca3128",
+      "expected_sha256": "7cfe414a2d74d6f1c201e26e0eb4d86cd1e036b10dca9741a1602d8dcee218ad",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 37
+    },
+    {
+      "address": "0xfffffff006ca3134",
+      "expected_sha256": "80dc82e47a68cfb44a4ab17de8fdf964111d5ce15195ef22e39769cd9d2eeeac",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 369
+    },
+    {
+      "address": "0xfffffff006ca319c",
+      "expected_sha256": "7cfe414a2d74d6f1c201e26e0eb4d86cd1e036b10dca9741a1602d8dcee218ad",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 37
+    },
+    {
+      "address": "0xfffffff006ca31f8",
+      "expected_sha256": "01035579ade320b099132615c93869dc286bbc85ca15dd20f94075db4e77347d",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 38
+    },
+    {
+      "address": "0xfffffff006ca3200",
+      "expected_sha256": "c71fc32a6c7876dc8433b924c0bb80acf746bff6e68d1b9b3d97d0fef5e29a9c",
+      "reason": "Native AppleHIDTransportDeviceUART virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 228
+    },
+    {
+      "address": "0xfffffff006ca3208",
+      "expected_sha256": "7cfe414a2d74d6f1c201e26e0eb4d86cd1e036b10dca9741a1602d8dcee218ad",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 37
+    },
+    {
+      "address": "0xfffffff006ca3218",
+      "expected_sha256": "0ee04514ac306091ad6fb67840461c5cf193ed4f7d6ac7cd6e5b7d389e908508",
+      "reason": "Native AppleHIDTransportBootloaderSTMB virtual layout",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 238
+    },
+    {
+      "address": "0xfffffff006ca3228",
+      "expected_sha256": "b5f4cbf8c37189091ab812f97813425ed8501c04d112f191f55edb7ac4ca09f4",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 368
+    },
+    {
+      "address": "0xfffffff006ca3230",
+      "expected_sha256": "21e591d146d4f21d7e0385c6767eb724a814fb4ac6783ab2cc5cf6901c421c9e",
+      "reason": "STMB private member after native base grows 288 -> 296",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 369
+    },
+    {
+      "address": "0xfffffff006ca04a8",
+      "expected_sha256": "c758464ff0cc6d747ea74b1e8d0d5a0fcbdcaa959c37616264c583199bc021e4",
+      "reason": "STMB allocation/metadata size 368 -> 376",
+      "kind": "instruction-immediate",
+      "mask": "0x1fffe0",
+      "shift": 5,
+      "value": 376
+    },
+    {
+      "address": "0xfffffff006ca0530",
+      "expected_sha256": "7f981df81d8283d9875543bd108c62a313d24ee360ccdf2a793b927d7d971f41",
+      "reason": "STMB allocation/metadata size 368 -> 376",
+      "kind": "instruction-immediate",
+      "mask": "0x1fffe0",
+      "shift": 5,
+      "value": 376
+    },
+    {
+      "address": "0xfffffff006ca0578",
+      "expected_sha256": "c758464ff0cc6d747ea74b1e8d0d5a0fcbdcaa959c37616264c583199bc021e4",
+      "reason": "STMB allocation/metadata size 368 -> 376",
+      "kind": "instruction-immediate",
+      "mask": "0x1fffe0",
+      "shift": 5,
+      "value": 376
+    },
+    {
+      "address": "0xfffffff006ca05a8",
+      "expected_sha256": "e8d0b79622df34f83ba301b4daf7ba2d2acb927e43e5e37283c21e1ee5c16621",
+      "reason": "STMB allocation/metadata size 368 -> 376",
+      "kind": "instruction-immediate",
+      "mask": "0x1fffe0",
+      "shift": 5,
+      "value": 376
+    },
+    {
+      "address": "0xfffffff006ca36a0",
+      "expected_sha256": "c758464ff0cc6d747ea74b1e8d0d5a0fcbdcaa959c37616264c583199bc021e4",
+      "reason": "STMB allocation/metadata size 368 -> 376",
+      "kind": "instruction-immediate",
+      "mask": "0x1fffe0",
+      "shift": 5,
+      "value": 376
+    },
+    {
+      "address": "0xfffffff006ff168c",
+      "expected_sha256": "f4f8196762b106d158c5b6f673048b78055e86ba781e6a462e99b9b99116c863",
+      "reason": "Typed allocation descriptor STMB size 376",
+      "kind": "scalar32",
+      "value": 376
+    }
+  ],
+  "pair_veneers": [
+    {
+      "va": 18446744005103978168,
+      "base_register": 19,
+      "delta": 8,
+      "reason": "Unaligned shifted STMB vector access"
+    }
+  ]
+}

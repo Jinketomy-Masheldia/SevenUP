@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "acceptance_scope": "Host toolchain used for exact HC3 raw and compressed IM4P reconstruction; final output hashes remain the acceptance gate",
+  "clang_version": "Apple clang version 21.0.0 (clang-2100.1.1.101)\nTarget: arm64-apple-darwin25.4.0\nThread model: posix\nInstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin",
+  "sdk_version": "26.5",
+  "linker_version": "Homebrew LLD 23.1.4",
+  "binary_sha256": {
+    "clang": "7def90dd8829726686213a747fc5bff1583df933dae5edc55d755479e0bfe00a",
+    "ld64.lld": "4c6afc01e2cda45bd78412d6fadf140d94a84031647cdb05d75ad479145150b7",
+    "img4": "950f92494494753b309bea222b7b76f786f4594aee547b93dcc28a5a63dd7b18",
+    "img4tool": "e897737e026f10f887335192c32a2e193dd13113929b6892b3e4f478bbaae0ba",
+    "KPlooshFinder": "bb36c435bc345321b56764a64d047b79f951cd2669fd91da4a94228c9df5de77",
+    "Kernel64Patcher3": "1ae2213347d2b3c3f0e6e2cb7beb547792f36c56b686c1ed9da871285d066b68"
+  },
+  "bundled_linker_sha256": "3dd3247e59905fcb338801b2903d89b6f28bfb5441621ac7fcf0c667ace172c7",
+  "bundled_linker_note": "Original reference linker hash above is retained as provenance. Bundled Mach-O load paths are changed and ad-hoc signed; relocated bundle compiled the complete HC3 observer byte-identically."
+}

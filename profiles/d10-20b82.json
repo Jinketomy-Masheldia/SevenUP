@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "name": "iPhone 7 Global / D10 / iOS 16.1 20B82",
+  "device": {
+    "product": "iPhone9,1",
+    "model": "d10ap",
+    "cpid": "0x8010"
+  },
+  "stock": {
+    "version": "15.8.8",
+    "build": "19H422"
+  },
+  "bootstrap": {
+    "role": "iphone7_bootstrap",
+    "version": "15.6",
+    "model": "d10ap"
+  },
+  "target": {
+    "role": "ipad_target",
+    "version": "16.1",
+    "build": "20B82",
+    "resource_product": "iPad7,5",
+    "resource_model": "j71bap"
+  },
+  "ramdisk_boot_args": "rd=md0 debug=0x2014e cs_enforcement_disable=1 panic-wait-forever=1 -v keepsyms=1 panic=0 wdt=-1",
+  "system_boot_args": "rd=disk1s8 debug=0x2014e cs_enforcement_disable=1 panic-wait-forever=1 -v keepsyms=1 panic=0 wdt=-1",
+  "known_limitations": [
+    "Highly experimental and for personal research only. Requires DFU, SSHRD, APFS and recovery experience; unsuitable for inexperienced users or daily use.",
+    "Do not store sensitive personal information or important data on this device.",
+    "Data loss, hangs, boot failure and a full restore may occur.",
+    "Only iPhone9,1 / D10AP Global is accepted. GSM and other variants have not been tested and are not supported by this workflow.",
+    "A computer-assisted DFU boot is required after every restart or power loss.",
+    "SEP support is partial. Never configure a device passcode, including during Setup Assistant; passcode operations may hang or restart the device.",
+    "Touch ID enrollment does not establish reliable unlocking or local authentication. Adding VPN configurations is currently affected by an ACM/SEP failure.",
+    "The pressure-sensitive physical Home button is not working. Use AssistiveTouch.",
+    "Baseband is unresearched: the author's cellular/SIM hardware is faulty, iPhone7 has two baseband hardware variants, and no GSM device was available for testing.",
+    "Camera video recording and AVE encoding are not working. Use Most Compatible format for still photos; High Efficiency capture and panorama remain unresolved.",
+    "Microphone and Voice Memos recording work, but Siri and dictation remain problematic.",
+    "Standby power management remains unresolved; severe overnight battery drain has been observed.",
+    "The current patch set disables healthd and mobiletimerd; Health, alarms, timers and Sleep-related functionality are not validated.",
+    "The Data volume is shared. Booting stock iOS15 after iOS16 migration may damage compatibility; return to stock through a fresh restore."
+  ]
+}

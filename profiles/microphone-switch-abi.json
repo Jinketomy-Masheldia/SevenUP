@@ -1,0 +1,744 @@
+{
+  "schema": 1,
+  "instruction_fields": [
+    {
+      "address": "0xfffffff006bc71ec",
+      "expected_sha256": "52ef49c1201bbfe3ed3034b7baa2d5b3b3cb51064837bd39e46ab4833ce3b7ef",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 3098,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc71f4",
+      "expected_sha256": "498529b87ea11dcd0b331c302ebb2efd55cacbf30291241a1b7a8a6a836c3a9d",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 347,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc7210",
+      "expected_sha256": "d11558d8a3d6e40088a4142135a0d8d3135e2d4a908dfc3ec8f69a0c12c5337a",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 3098,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc7218",
+      "expected_sha256": "7043569e7edc87ccf2ae9795ee1828fc63b77913e8229bb5256ddef2b486b550",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 3097,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc7224",
+      "expected_sha256": "cc5aca188e62630aab1a24cd8a4df3bb4d4fd3734a77dba034704566a1e1e188",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 383,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc723c",
+      "expected_sha256": "dbff11d0b6c57360f4cb47382d4c19045dea4b831d4b500c6f34b059210858cd",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 3096,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc7320",
+      "expected_sha256": "44d09162eb1c0dea0055ff01b7b401fa04d832048da1ffe10f1a9759bb0cdf01",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 348,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc7354",
+      "expected_sha256": "d7aeafb4355c70f2ef382bca38748140d111fe78ac4e64bfb79516cfedeb7243",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 3099,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc735c",
+      "expected_sha256": "44d09162eb1c0dea0055ff01b7b401fa04d832048da1ffe10f1a9759bb0cdf01",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 348,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc7374",
+      "expected_sha256": "51a3f2cf86ce47c45574e649cb7869d93afc55389cb10074757970e25d1b6f32",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 356,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc7390",
+      "expected_sha256": "a992cd9abf99ab378eef8485c70a5cf6160f8bbf4b53ddb2020d82608b9b2b58",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 226,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc73b0",
+      "expected_sha256": "51a3f2cf86ce47c45574e649cb7869d93afc55389cb10074757970e25d1b6f32",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 356,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc73cc",
+      "expected_sha256": "a992cd9abf99ab378eef8485c70a5cf6160f8bbf4b53ddb2020d82608b9b2b58",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 226,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc73ec",
+      "expected_sha256": "51a3f2cf86ce47c45574e649cb7869d93afc55389cb10074757970e25d1b6f32",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 356,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc740c",
+      "expected_sha256": "498529b87ea11dcd0b331c302ebb2efd55cacbf30291241a1b7a8a6a836c3a9d",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 347,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc7438",
+      "expected_sha256": "51a3f2cf86ce47c45574e649cb7869d93afc55389cb10074757970e25d1b6f32",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 356,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc745c",
+      "expected_sha256": "d7aeafb4355c70f2ef382bca38748140d111fe78ac4e64bfb79516cfedeb7243",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 3099,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc7470",
+      "expected_sha256": "51a3f2cf86ce47c45574e649cb7869d93afc55389cb10074757970e25d1b6f32",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 356,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc7490",
+      "expected_sha256": "51a3f2cf86ce47c45574e649cb7869d93afc55389cb10074757970e25d1b6f32",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 356,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc74b0",
+      "expected_sha256": "51a3f2cf86ce47c45574e649cb7869d93afc55389cb10074757970e25d1b6f32",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 356,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc74cc",
+      "expected_sha256": "51a3f2cf86ce47c45574e649cb7869d93afc55389cb10074757970e25d1b6f32",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 356,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc88b4",
+      "expected_sha256": "160bc077ec3ec95816c4a488701be496bf9a5bf05e1c8b2d9bcd61c3e1b800cb",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 960,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc88bc",
+      "expected_sha256": "d887167b063c532a7fca062fa18831334c7e4bc26a0840d2ce26a37596e99826",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 976,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc88c4",
+      "expected_sha256": "dcf48ee8358110746944fa84ee5e941a29bcd7c714b4d07ee7b0ecb93cd78c68",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 992,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc88cc",
+      "expected_sha256": "c315653d2f1dcf7e24fff09d244b97f8fae5d1bef2581b89e97b6058f495b95c",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 1008,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc88d4",
+      "expected_sha256": "fb43a77a6ccff88ece57c8df3e721d61b3346f46d8bb1377540d4e1c0d2292eb",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 1104,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc88dc",
+      "expected_sha256": "d9588202fa98d07e83c39c92c0f8b40b0af8ce031f12f10c6022b02d01733a3e",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 1120,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc8e04",
+      "expected_sha256": "ae25d673f4ff5e90da916985fd3056743896bd204b2d5f0d6ea981533980d068",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 866,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc8ecc",
+      "expected_sha256": "a992cd9abf99ab378eef8485c70a5cf6160f8bbf4b53ddb2020d82608b9b2b58",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 226,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc8ef0",
+      "expected_sha256": "51a3f2cf86ce47c45574e649cb7869d93afc55389cb10074757970e25d1b6f32",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 356,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc8f18",
+      "expected_sha256": "51a3f2cf86ce47c45574e649cb7869d93afc55389cb10074757970e25d1b6f32",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 356,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc8f34",
+      "expected_sha256": "a992cd9abf99ab378eef8485c70a5cf6160f8bbf4b53ddb2020d82608b9b2b58",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 226,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc8f58",
+      "expected_sha256": "51a3f2cf86ce47c45574e649cb7869d93afc55389cb10074757970e25d1b6f32",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 356,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc8f74",
+      "expected_sha256": "cc850d29319f649a7edf405e754a2e9f0ccf93a7f6ec843133eb9b9056f244b4",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 3120,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc8f88",
+      "expected_sha256": "5a58756123d7a3c7e8e9137e1c12df9f6eef8ae67ef9be6286f1945a92fe6bb4",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 862,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc8f94",
+      "expected_sha256": "cd47b6441e3ecaf7f597bd4aaac5263c8010c52b7239cf52a0bc18d80f88c176",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 3120,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc8f9c",
+      "expected_sha256": "3606e6575ab2e52dc6df8418bb986842a3d9159ea96144561ab7307580191f45",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 3122,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc8fb0",
+      "expected_sha256": "43e5c941384b169a837a0c8e0f6cea4b1dd8574afaeb4140a212230f9d4f6e69",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 2984,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc8fc8",
+      "expected_sha256": "5a58756123d7a3c7e8e9137e1c12df9f6eef8ae67ef9be6286f1945a92fe6bb4",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 862,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc8fdc",
+      "expected_sha256": "b9bc722aec06c29c825779cd26e2f2e8cef15a72db48b1036c0a5c794f86a238",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 3122,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc9004",
+      "expected_sha256": "72944e49fddbdd611316283030fdadcaf362c3ef10d6d60ef5a227786d61797e",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 227,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc9048",
+      "expected_sha256": "ae25d673f4ff5e90da916985fd3056743896bd204b2d5f0d6ea981533980d068",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 866,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc9054",
+      "expected_sha256": "a992cd9abf99ab378eef8485c70a5cf6160f8bbf4b53ddb2020d82608b9b2b58",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 226,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc907c",
+      "expected_sha256": "51a3f2cf86ce47c45574e649cb7869d93afc55389cb10074757970e25d1b6f32",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 356,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc90a0",
+      "expected_sha256": "51a3f2cf86ce47c45574e649cb7869d93afc55389cb10074757970e25d1b6f32",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 356,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc90bc",
+      "expected_sha256": "ae25d673f4ff5e90da916985fd3056743896bd204b2d5f0d6ea981533980d068",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 866,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc90c8",
+      "expected_sha256": "a992cd9abf99ab378eef8485c70a5cf6160f8bbf4b53ddb2020d82608b9b2b58",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 226,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc90f4",
+      "expected_sha256": "51a3f2cf86ce47c45574e649cb7869d93afc55389cb10074757970e25d1b6f32",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 356,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc9118",
+      "expected_sha256": "51a3f2cf86ce47c45574e649cb7869d93afc55389cb10074757970e25d1b6f32",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 356,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc9128",
+      "expected_sha256": "ae25d673f4ff5e90da916985fd3056743896bd204b2d5f0d6ea981533980d068",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 866,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc9134",
+      "expected_sha256": "a992cd9abf99ab378eef8485c70a5cf6160f8bbf4b53ddb2020d82608b9b2b58",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 226,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc9160",
+      "expected_sha256": "51a3f2cf86ce47c45574e649cb7869d93afc55389cb10074757970e25d1b6f32",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 356,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc91c0",
+      "expected_sha256": "7c4f704c413803d30863352b7768926cbd48ed24b7d28cc420150e90b6d6e28b",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 960,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc9204",
+      "expected_sha256": "43e5c941384b169a837a0c8e0f6cea4b1dd8574afaeb4140a212230f9d4f6e69",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 2984,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc921c",
+      "expected_sha256": "cd47b6441e3ecaf7f597bd4aaac5263c8010c52b7239cf52a0bc18d80f88c176",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 3120,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc9224",
+      "expected_sha256": "b9bc722aec06c29c825779cd26e2f2e8cef15a72db48b1036c0a5c794f86a238",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 3122,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc9254",
+      "expected_sha256": "d956c660a06f8dc76e085f63d80bdae4ead99b6d6c2cd9d67a28e4cdfa1378fd",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 976,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc925c",
+      "expected_sha256": "7b68817880927cdd0a49616b4583c027bc309b9602cb42df69a1fb679dd7740b",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 992,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc9264",
+      "expected_sha256": "232215515569cd3bc6310e907a2cf51b239e3ce959360ef82c8372a6ee29d6e8",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 1008,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc926c",
+      "expected_sha256": "267cc6f144dfa50dee1eea0be13477f3c0eaa95dab1a1474d7d7dd6b01aae3b9",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 1104,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc9274",
+      "expected_sha256": "67ea8a93909611e468d57da14ab4696a634dd0315770f1c5e37d819869ca0343",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 1120,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bc92ec",
+      "expected_sha256": "51a3f2cf86ce47c45574e649cb7869d93afc55389cb10074757970e25d1b6f32",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 356,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bcb210",
+      "expected_sha256": "9e4ed7fb09866c0c08ec4a58ef076fa3694920240ab07fa8261b84d2725c7e0a",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 177,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bcb220",
+      "expected_sha256": "3d93462697e199032bbb9f492e8187652aa85f4f58f642f975aae69a6126bdc9",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bcb238",
+      "expected_sha256": "52638463f30aa4cfaad8020a46e5c9790af029d8b45d66bf2083fbda22aba77b",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 2984,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bcb250",
+      "expected_sha256": "15e530fa13654fee7ccd093670ec1e3d30c9d584e6d93feeb0f437ae74074b19",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 2984,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bcb254",
+      "expected_sha256": "c34e00a90e9a70239856510d05abf466c560a2245be7dd5dcb6361bc40307f40",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 376,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bcb25c",
+      "expected_sha256": "537eabffbcab178219d8af6483ca266691a27b03ffa6cca794c86b5d1a966aa6",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 376,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bcb2dc",
+      "expected_sha256": "9e4ed7fb09866c0c08ec4a58ef076fa3694920240ab07fa8261b84d2725c7e0a",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 177,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bcb2ec",
+      "expected_sha256": "3d93462697e199032bbb9f492e8187652aa85f4f58f642f975aae69a6126bdc9",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bcb2f4",
+      "expected_sha256": "52638463f30aa4cfaad8020a46e5c9790af029d8b45d66bf2083fbda22aba77b",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 2984,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bcb30c",
+      "expected_sha256": "15e530fa13654fee7ccd093670ec1e3d30c9d584e6d93feeb0f437ae74074b19",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 2984,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bcb310",
+      "expected_sha256": "a3a4f69566adb124c26b261ce7b9ec54f6489a3708cc66912dc891965488b9e6",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 386,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bcb318",
+      "expected_sha256": "e75395e61cece8f4878736ff2717f5c87eccaf5961382d472507817b27c535db",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 386,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bcb32c",
+      "expected_sha256": "9e4ed7fb09866c0c08ec4a58ef076fa3694920240ab07fa8261b84d2725c7e0a",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 177,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bcb33c",
+      "expected_sha256": "3d93462697e199032bbb9f492e8187652aa85f4f58f642f975aae69a6126bdc9",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 358,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bcb354",
+      "expected_sha256": "52638463f30aa4cfaad8020a46e5c9790af029d8b45d66bf2083fbda22aba77b",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 2984,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bcb36c",
+      "expected_sha256": "15e530fa13654fee7ccd093670ec1e3d30c9d584e6d93feeb0f437ae74074b19",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 2984,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bcb370",
+      "expected_sha256": "6e1eb2199f57257aed6b918b3f22a777be8329b6206065bda25a56a4fa88de55",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 396,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bcb378",
+      "expected_sha256": "48112ef31d72dffa43abe36c53b89b4dc06d8a444814f73ddc7a2f4c0eb8ab50",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 396,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bcb37c",
+      "expected_sha256": "c08f1055debffd283d25ad5402561a7a7ffc7f0280bfef409eaa17076d1ae7f6",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 384,
+      "reason": "CS42 ABI field / virtual access"
+    },
+    {
+      "address": "0xfffffff006bcb4d0",
+      "expected_sha256": "8bfa500fc5b5bf1023c7fa4b6c93818d407d36bd4ef0ccac3805029187a7b63c",
+      "kind": "instruction-immediate",
+      "mask": "0x3ffc00",
+      "shift": 10,
+      "value": 376,
+      "reason": "CS42 ABI field / virtual access"
+    }
+  ],
+  "pair_veneers": []
+}

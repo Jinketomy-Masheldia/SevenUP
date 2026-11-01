@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "calls": [
+    {
+      "address": "0xfffffff005ee40ac",
+      "operation": "enumerate",
+      "HU11_slot": 209,
+      "correct_slot": 208
+    },
+    {
+      "address": "0xfffffff005ee61a0",
+      "operation": "reset command",
+      "HU11_slot": 208,
+      "correct_slot": 207
+    }
+  ]
+}

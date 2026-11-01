@@ -1,0 +1,122 @@
+{
+  "schema": 1,
+  "host_architecture": "arm64",
+  "files": {
+    "img4": {
+      "source_sha256": "950f92494494753b309bea222b7b76f786f4594aee547b93dcc28a5a63dd7b18",
+      "sha256": "950f92494494753b309bea222b7b76f786f4594aee547b93dcc28a5a63dd7b18",
+      "dependency_layout_modified": false
+    },
+    "img4tool": {
+      "source_sha256": "e897737e026f10f887335192c32a2e193dd13113929b6892b3e4f478bbaae0ba",
+      "sha256": "e897737e026f10f887335192c32a2e193dd13113929b6892b3e4f478bbaae0ba",
+      "dependency_layout_modified": false
+    },
+    "irecovery": {
+      "source_sha256": "316824d8cd32488904f813ad6db4f5bb9fbbfdf93217994180d3bdff69596a4c",
+      "sha256": "316824d8cd32488904f813ad6db4f5bb9fbbfdf93217994180d3bdff69596a4c",
+      "dependency_layout_modified": false
+    },
+    "gaster": {
+      "source_sha256": "f9f4ac865e1df7a1b1bb2ca1dafbc4b4b2f2c8e732bb984cd9e146337b09d980",
+      "sha256": "f9f4ac865e1df7a1b1bb2ca1dafbc4b4b2f2c8e732bb984cd9e146337b09d980",
+      "dependency_layout_modified": false
+    },
+    "iBoot64Patcher": {
+      "source_sha256": "bc61b24c7cb80d5dc88ee865c9c6ca4a8aef22c4f62b69eb3092b0a93833e810",
+      "sha256": "bc61b24c7cb80d5dc88ee865c9c6ca4a8aef22c4f62b69eb3092b0a93833e810",
+      "dependency_layout_modified": false
+    },
+    "KPlooshFinder": {
+      "source_sha256": "bb36c435bc345321b56764a64d047b79f951cd2669fd91da4a94228c9df5de77",
+      "sha256": "bb36c435bc345321b56764a64d047b79f951cd2669fd91da4a94228c9df5de77",
+      "dependency_layout_modified": false
+    },
+    "Kernel64Patcher3": {
+      "source_sha256": "1ae2213347d2b3c3f0e6e2cb7beb547792f36c56b686c1ed9da871285d066b68",
+      "sha256": "1ae2213347d2b3c3f0e6e2cb7beb547792f36c56b686c1ed9da871285d066b68",
+      "dependency_layout_modified": false
+    },
+    "kerneldiff": {
+      "source_sha256": "a6d8d4560f4abd0708b6918656b7c7ff622cb6c2f6480433408facdf275bd9bd",
+      "sha256": "a6d8d4560f4abd0708b6918656b7c7ff622cb6c2f6480433408facdf275bd9bd",
+      "dependency_layout_modified": false
+    },
+    "gtar": {
+      "source_sha256": "185f794bce58dc25161ac445f10b46716e02e9fdec284a2373660e47aa931066",
+      "sha256": "185f794bce58dc25161ac445f10b46716e02e9fdec284a2373660e47aa931066",
+      "dependency_layout_modified": false
+    },
+    "iproxy": {
+      "source_sha256": "3762471d4b90f92c31d81b7b7172278537ae7ef228bca7904e2d38e4a6680187",
+      "sha256": "3762471d4b90f92c31d81b7b7172278537ae7ef228bca7904e2d38e4a6680187",
+      "dependency_layout_modified": false
+    },
+    "sshpass": {
+      "source_sha256": "b1b7d11fac3c2f63ec72a021014234d3d0d1ec15433d26bd674c7c3a3fbdb310",
+      "sha256": "b1b7d11fac3c2f63ec72a021014234d3d0d1ec15433d26bd674c7c3a3fbdb310",
+      "dependency_layout_modified": false
+    },
+    "pzb": {
+      "source_sha256": "b56d6d8c85999fc351a5fea2cbb6b19b56fb24975be55bc1221534a7cc704312",
+      "sha256": "b56d6d8c85999fc351a5fea2cbb6b19b56fb24975be55bc1221534a7cc704312",
+      "dependency_layout_modified": false
+    },
+    "ld64.lld": {
+      "source_sha256": "4c6afc01e2cda45bd78412d6fadf140d94a84031647cdb05d75ad479145150b7",
+      "sha256": "3dd3247e59905fcb338801b2903d89b6f28bfb5441621ac7fcf0c667ace172c7",
+      "dependency_layout_modified": true
+    },
+    "lib/libLLVM.23.1.dylib": {
+      "source_sha256": "330350c483df28104ac600fa2d1514b81f8a3aab7fc9850ca33ad7f08ac2efe0",
+      "sha256": "6d83ebdc8895024ef91f73b9cbf1846f6ad4044f532ca37164e1c9329ec5398c",
+      "dependency_layout_modified": true,
+      "compressed": {
+        "filename": "lib/libLLVM.23.1.dylib.xz",
+        "sha256": "177c8ebfba58bedd90401c0da932248c43f96c577f7e231e4507e25801abd26c",
+        "size": 168351984
+      }
+    },
+    "lib/libzstd.1.5.7.dylib": {
+      "source_sha256": "602d50cbe6fad0f0da6d1b73284ae3f75316015aea482ebd55614b6df2406b43",
+      "sha256": "a067f797c29427f0bc9105be75d25557862ed5396560a44cebae47f88f73bdd9",
+      "dependency_layout_modified": true
+    },
+    "lib/libz3.5.3.3.0.dylib": {
+      "source_sha256": "9a8cb0cf1563ca49a4c96331ca0d336b2ecc88da300747b4172d2bda36f4ceda",
+      "sha256": "5440188d7324447afc568ae12e061534724765eb03f8c38afa5a396a8d27fd6b",
+      "dependency_layout_modified": true
+    },
+    "lib/liblldCommon.23.1.dylib": {
+      "source_sha256": "c505616ef8ae2bc276e6a198481de05231b16984f5869312c3113f9ed3ec3f73",
+      "sha256": "6bd32a15fd4232ea70ce0c77bd2afc71686e970a2e1da913205aacbca5c25abf",
+      "dependency_layout_modified": true
+    },
+    "lib/liblldCOFF.23.1.dylib": {
+      "source_sha256": "2325643f80c14da69bb91247de19797a8dd6f49bfd984b5ce29c62b09c77dd05",
+      "sha256": "752f56cbd7aeef293367cbd773ac53970d42047dd0b72287b15dd58d4ab41f31",
+      "dependency_layout_modified": true
+    },
+    "lib/liblldWasm.23.1.dylib": {
+      "source_sha256": "9dc014564573e6de282d475688e048173f6e14e8d86c03835ce424bf70a674a6",
+      "sha256": "be0b2b1274de5b6df4822f9e9103294a3a414fd40c9c8912fa0ee0267d640d08",
+      "dependency_layout_modified": true
+    },
+    "lib/liblldMinGW.23.1.dylib": {
+      "source_sha256": "022e996712366855b31a955254f2fd0c67e3c2f365106defbea21834f38a84ca",
+      "sha256": "0a3eaca3103b433c6f5c35955a8d3a44216a6e1ecabb07f6ed6b9206628b810f",
+      "dependency_layout_modified": true
+    },
+    "lib/liblldMachO.23.1.dylib": {
+      "source_sha256": "cbe8b4ff00eebf447d19a508c1de6ca56f0b347e6f22e3f84171e415646d60bc",
+      "sha256": "eef9bafff8de0961d7622cc39e90c43a31aa6051d0ecf48f30da08b817d4f0a0",
+      "dependency_layout_modified": true
+    },
+    "lib/liblldELF.23.1.dylib": {
+      "source_sha256": "1e15031d079fc045d739607a73123992920075df2ec09a17e5e78cc8ba78fc9a",
+      "sha256": "8b1ab1cb2351dad932f22473aa467ff8087b308794195e98a1341da34ed860b3",
+      "dependency_layout_modified": true
+    }
+  },
+  "purpose": "SevenUP experimental macOS runtime bundle. See THIRD_PARTY.md, Darwin/sources.json and dependency lock records for per-component provenance."
+}

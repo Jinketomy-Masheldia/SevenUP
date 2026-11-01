@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "variant": "HC3_HC1_button_command_records",
+  "image_md5": "d6e496e1917fc7c808e896706a4dca00",
+  "image_sha256": "b492725566ba152d61e6348fc7fe777502c3a7a24f2cf72791aee2bf0740deb4",
+  "image_size": 16529297,
+  "raw_sha256": "d11e37f4c349d997577894d9f9bc08bcac718a3ee1ce62d1d1c055e47053c168",
+  "raw_size": 47644700,
+  "release_ready_clean_rebuilder": true,
+  "research_input_raw_sha256": {
+    "ipad_target": "27a5a5106c8afad808a7add46aa31a73d18f15c09a5bd62cb931c210dcf2bdd2",
+    "iphone7_bootstrap": "fe963384c5cfebdc0e591b88cd58d6d25b95c0e36bf8e3ed8616c8ff7455c0b6",
+    "iphone8_donor": "e5dad9dd6c1662e6962f33a49f1bd6f578aaab529ed4e4c6c2cbc8789c9ba590"
+  },
+  "input_recipes": {
+    "iphone7_bootstrap": {
+      "mode": "KPlooshFinder",
+      "pristine_raw_sha256": "4d83e9cb7e0b2e3cafccc375cb6879126e3a82d164d917a60db260aa9f46c5f2"
+    },
+    "ipad_target": {
+      "mode": "KPlooshFinder",
+      "pristine_raw_sha256": "23513fb0d7f59dc7eedfee5ce8693032fed495c37cfb14dada97a28a5320aaa6"
+    },
+    "iphone8_donor": {
+      "mode": "pristine",
+      "pristine_raw_sha256": "e5dad9dd6c1662e6962f33a49f1bd6f578aaab529ed4e4c6c2cbc8789c9ba590"
+    }
+  },
+  "im4p_sha256": "5af51daeaf69e737f2288e32b8db05209c3eab64a099f0aec212327d0e18a408"
+}

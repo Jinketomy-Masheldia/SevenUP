@@ -1,0 +1,174 @@
+{
+  "schema": 1,
+  "target": "HC3",
+  "stages": [
+    {
+      "id": "D",
+      "name": "D_watchdog_no_pmu_disabled_usb",
+      "input_raw_sha256": "27a5a5106c8afad808a7add46aa31a73d18f15c09a5bd62cb931c210dcf2bdd2",
+      "output_raw_sha256": "531d3b13c8b65b2e591a824e274926ac4720c459ded059076123e369c31077d2"
+    },
+    {
+      "id": "E",
+      "name": "E_D_usbtrace",
+      "input_raw_sha256": "531d3b13c8b65b2e591a824e274926ac4720c459ded059076123e369c31077d2",
+      "output_raw_sha256": "ffae490144be97d8a9a808f3d436edb52e5c6e6714128de0c8a5f16dfdc3d720"
+    },
+    {
+      "id": "F",
+      "name": "F_E_early_synopsys_trace",
+      "input_raw_sha256": "ffae490144be97d8a9a808f3d436edb52e5c6e6714128de0c8a5f16dfdc3d720",
+      "output_raw_sha256": "a5e0c40d06e7a1dd2ee2993990df476fa1c353a2417a047bd88b7ea87d9e0df1"
+    },
+    {
+      "id": "G",
+      "name": "G_F_optional_dock_bypass_red",
+      "input_raw_sha256": "a5e0c40d06e7a1dd2ee2993990df476fa1c353a2417a047bd88b7ea87d9e0df1",
+      "output_raw_sha256": "2cbca93e00ae07522e1a3dd5583c4fff08cb65ef01e8a5de6d56b3582e7d84f4"
+    },
+    {
+      "id": "H",
+      "name": "H_G_palera_rootful",
+      "input_raw_sha256": "2cbca93e00ae07522e1a3dd5583c4fff08cb65ef01e8a5de6d56b3582e7d84f4",
+      "output_raw_sha256": "c3756dfa0ec43de8100d480f27f7019d06a03161a49c2c3095c6f3cf3dddcae2"
+    },
+    {
+      "id": "I",
+      "name": "I_H_AppleFirmwareUpdate_f",
+      "input_raw_sha256": "c3756dfa0ec43de8100d480f27f7019d06a03161a49c2c3095c6f3cf3dddcae2",
+      "output_raw_sha256": "f456b1605e2fa6dfb02d965bee424daa6c92e32ed9dbfbe7bf128f3a3e0bdf55"
+    },
+    {
+      "id": "O",
+      "name": "O_I_buttons_optional_wake",
+      "input_raw_sha256": "f456b1605e2fa6dfb02d965bee424daa6c92e32ed9dbfbe7bf128f3a3e0bdf55",
+      "output_raw_sha256": "ec41f1a30b91578d1dee71d99ebe273c830db435e1411f826f5d3f33870b44ab"
+    },
+    {
+      "id": "CH1",
+      "name": "CH1_O_ChestnutDisplayPMU",
+      "input_raw_sha256": "ec41f1a30b91578d1dee71d99ebe273c830db435e1411f826f5d3f33870b44ab",
+      "output_raw_sha256": "9394305e075e6285d2e47e2bf9be5a53d861ab9023299b706fd7112eacbcd791"
+    },
+    {
+      "id": "CH2",
+      "name": "CH2_CH1_green_power_trace",
+      "input_raw_sha256": "9394305e075e6285d2e47e2bf9be5a53d861ab9023299b706fd7112eacbcd791",
+      "output_raw_sha256": "95c97e1265225a90fddd865f2bc6b19c03a90dad843cdfb18fcca5711a03fbcb"
+    },
+    {
+      "id": "DS2",
+      "name": "DS2_CH2_D2333_in_D2365_slots",
+      "input_raw_sha256": "95c97e1265225a90fddd865f2bc6b19c03a90dad843cdfb18fcca5711a03fbcb",
+      "output_raw_sha256": "c8c57391905b685cd65de8f7c937de658e8e38cdba21e681832b7cdddbc29d83"
+    },
+    {
+      "id": "AG1",
+      "name": "AG1_DS2_PMU_guard_GUI",
+      "input_raw_sha256": "c8c57391905b685cd65de8f7c937de658e8e38cdba21e681832b7cdddbc29d83",
+      "output_raw_sha256": "12afb6e88d7bcd742dfc7b854fcc7dd639351b5ee329a35cf01d91a76d95f17c"
+    },
+    {
+      "id": "AU3",
+      "name": "AU3_AG1_native16_CS35L26",
+      "input_raw_sha256": "12afb6e88d7bcd742dfc7b854fcc7dd639351b5ee329a35cf01d91a76d95f17c",
+      "output_raw_sha256": "cb14dcb3f87ed7f5a7dd1f0934ba1782aa0265a5c32b89f05b1759be0dd8a226"
+    },
+    {
+      "id": "AU4",
+      "name": "AU4_AU3_VirtualMCA",
+      "input_raw_sha256": "cb14dcb3f87ed7f5a7dd1f0934ba1782aa0265a5c32b89f05b1759be0dd8a226",
+      "output_raw_sha256": "74a6e12aa426fccaf582e8aac5c5d892e42a842acf304d0c31011264397cffee"
+    },
+    {
+      "id": "AU5",
+      "name": "AU5_AU4_AOP_completion",
+      "input_raw_sha256": "74a6e12aa426fccaf582e8aac5c5d892e42a842acf304d0c31011264397cffee",
+      "output_raw_sha256": "09168b40b695831d7192f5db903d54877707ddc8575d1d4d17ae19681f4a5522"
+    },
+    {
+      "id": "AU6",
+      "name": "AU6_AU5_AD81006",
+      "input_raw_sha256": "09168b40b695831d7192f5db903d54877707ddc8575d1d4d17ae19681f4a5522",
+      "output_raw_sha256": "f71e1b320a33ab284db235b9a2ed7e002cf264fbbe18b3e68b260f1abe590cbe"
+    },
+    {
+      "id": "MG1",
+      "name": "MG1_AU6_Maggie_compat",
+      "input_raw_sha256": "f71e1b320a33ab284db235b9a2ed7e002cf264fbbe18b3e68b260f1abe590cbe",
+      "output_raw_sha256": "2f367be4e8bf24e21b8e5669cff4bf9d74912bf4d492cf1a45b0aef82d032ead"
+    },
+    {
+      "id": "AK1",
+      "name": "AK1_MG1_legacy_rewrap",
+      "input_raw_sha256": "2f367be4e8bf24e21b8e5669cff4bf9d74912bf4d492cf1a45b0aef82d032ead",
+      "output_raw_sha256": "bb6ac83fd8ee39204be66c0f639050e8b846aa498d678df6439027e761b0fe13"
+    },
+    {
+      "id": "AK2",
+      "name": "AK2_MG1_fs_context_rewrap",
+      "input_raw_sha256": "bb6ac83fd8ee39204be66c0f639050e8b846aa498d678df6439027e761b0fe13",
+      "output_raw_sha256": "ca4898b282078c152bdde8068c64ec06f4f257b711288a73b296a784c467ddeb"
+    },
+    {
+      "id": "BT1",
+      "name": "BT1_AK2_SN2400_battery",
+      "input_raw_sha256": "ca4898b282078c152bdde8068c64ec06f4f257b711288a73b296a784c467ddeb",
+      "output_raw_sha256": "0142faf869e910378f20e6f33f7df73011a061a06d21ae5350b1a47fe1f5a8fa"
+    },
+    {
+      "id": "MC1",
+      "name": "MC1_BT1_CS42L71_compat",
+      "input_raw_sha256": "0142faf869e910378f20e6f33f7df73011a061a06d21ae5350b1a47fe1f5a8fa",
+      "output_raw_sha256": "660ec8e1da63a5458082add4342c08445bfec9b9ccbdf2453bf2e7895060b265"
+    },
+    {
+      "id": "MC1D",
+      "name": "MC1D_panic_capture",
+      "input_raw_sha256": "660ec8e1da63a5458082add4342c08445bfec9b9ccbdf2453bf2e7895060b265",
+      "output_raw_sha256": "ba57f2bf055f8c3cff80daddced5bfe2662b79ca81d4ca4b9f56e7ee0edee185"
+    },
+    {
+      "id": "MC2D",
+      "name": "MC2D_switch_abi_panic",
+      "input_raw_sha256": "ba57f2bf055f8c3cff80daddced5bfe2662b79ca81d4ca4b9f56e7ee0edee185",
+      "output_raw_sha256": "044078ee41ed458bb99b994a5720f1b66755ff98a863a72d723b5217384e1f67"
+    },
+    {
+      "id": "HU9",
+      "name": "HU9_MC2D_UART_ABI_trace",
+      "input_raw_sha256": "044078ee41ed458bb99b994a5720f1b66755ff98a863a72d723b5217384e1f67",
+      "output_raw_sha256": "da86246a6390b7abfcd842c8c79dcf43dd936a553c914fe2d6722eadcf7f169e"
+    },
+    {
+      "id": "HU10",
+      "name": "HU10_HU9_metaclass_prefix",
+      "input_raw_sha256": "da86246a6390b7abfcd842c8c79dcf43dd936a553c914fe2d6722eadcf7f169e",
+      "output_raw_sha256": "5dbfa8aa8396dc4d6d0fb38b27b4b7af77c51f1aa38ad648d75bf1c9cec9577d"
+    },
+    {
+      "id": "HU11",
+      "name": "HU11_STMB_indexed_fields",
+      "input_raw_sha256": "5dbfa8aa8396dc4d6d0fb38b27b4b7af77c51f1aa38ad648d75bf1c9cec9577d",
+      "output_raw_sha256": "03d8d414fb77df0b13947ac2c70003bebe4a1659870aff15754c075308b1d801"
+    },
+    {
+      "id": "HU12",
+      "name": "HU12_management_dispatch",
+      "input_raw_sha256": "03d8d414fb77df0b13947ac2c70003bebe4a1659870aff15754c075308b1d801",
+      "output_raw_sha256": "3bbd714b587cd9dc7283bcc8552a6782f8a30ff07a2c72f2dadaf31098d9132f"
+    },
+    {
+      "id": "HC1",
+      "name": "HC1_HU12_Homer_consumers",
+      "input_raw_sha256": "3bbd714b587cd9dc7283bcc8552a6782f8a30ff07a2c72f2dadaf31098d9132f",
+      "output_raw_sha256": "a00eacd37e686495770c60c930c3dbbaa15e692b5c77cd68f7f11a567abdf068"
+    },
+    {
+      "id": "HC3",
+      "name": "HC3_HC1_button_command_records",
+      "input_raw_sha256": "a00eacd37e686495770c60c930c3dbbaa15e692b5c77cd68f7f11a567abdf068",
+      "output_raw_sha256": "d11e37f4c349d997577894d9f9bc08bcac718a3ee1ce62d1d1c055e47053c168"
+    }
+  ]
+}
